@@ -9,7 +9,6 @@ const Accueil = () => {
         <div>
         <Navigation />
         <Cards  />
-        <Footer />
             
         </div>
     );

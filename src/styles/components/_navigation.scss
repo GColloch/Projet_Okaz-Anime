@@ -2,14 +2,14 @@
   background-color: #262626;
   ul {
     display: flex;
-    padding: 50px;
+    padding: 40px;
     justify-content: center;
 
 
     a {
       text-decoration: none;
-      padding: 10px 40px;
-      font-size: 20px;
+      padding: 10px 10px;
+      font-size: 7px;
 
       li {
         color: $color-1;
@@ -50,5 +50,60 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  li{
+    font-size: 5px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  li{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  li{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  li{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navigation{
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  li{
+    font-size: 25px;
+  }
+  .navigation{
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  li{
+    font-size: 30px;
+  }
+  .navigation{
+    padding: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  li{
+    padding: 10px 20px;
   }
 }
