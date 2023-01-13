@@ -1,0 +1,13 @@
+.logo {
+  @include verticalCenter;
+  margin: 5px;
+  padding-left: 100px;
+  float: left;
+  padding-top: 10px;
+
+
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
