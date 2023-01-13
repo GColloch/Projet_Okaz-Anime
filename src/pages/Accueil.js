@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from '../components/Cards';
+import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
@@ -8,6 +9,7 @@ const Accueil = () => {
         <div>
         <Navigation />
         <Cards  />
+        <Footer />
             
         </div>
     );
