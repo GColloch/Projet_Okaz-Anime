@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <div class="content-footer">
-              <div class="bloc footer-services">
+            <div className="content-footer">
+              <div className="bloc footer-services">
                 <h3>Services</h3>
                 <ul class="services-list">
                   <li><a >Ventes de Figurines</a></li>
@@ -13,16 +13,16 @@ const Footer = () => {
                 </ul>
               </div>
       
-              <div class="bloc footer-contact">
+              <div className="bloc footer-contact">
                 <h3>Contact</h3>
                 <p>02 40 73 80 47</p>
                 <p>Japanim_Nantes@contact.com</p>
                 <p>3 Rue Santeuil 44 000 Nantes</p>
               </div>
       
-              <div class="bloc footer-schedule">
+              <div className="bloc footer-schedule">
                 <h3>Horaires</h3>
-                <ul class="schedule-list">
+                <ul className="schedule-list">
                   <li>✔️ Lun 14:00-19:00</li>
                   <li>✔️ Mar 10:00-19:00</li>
                   <li>✔️ Mer 10:00-19:00</li>
@@ -33,9 +33,9 @@ const Footer = () => {
                 </ul>
               </div>
       
-              <div class="bloc footer-medias">
+              <div className="bloc footer-medias">
                 <h3>Nos réseaux</h3>
-                <ul class="media-list">
+                <ul className="media-list">
                   <li>
                     <a>
                       <svg
@@ -62,7 +62,7 @@ const Footer = () => {
                         focusable="false"
                         data-prefix="fab"
                         data-icon="instagram"
-                        class="svg-inline--fa fa-instagram fa-w-14"
+                        className="svg-inline--fa fa-instagram fa-w-14"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"

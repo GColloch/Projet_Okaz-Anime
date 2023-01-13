@@ -1,8 +1,4 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 h1 {
     font-size: 10vmin;
     text-align: center;
@@ -22,7 +18,6 @@ p {
 footer {
     flex-shrink: 0;
     display: flex;
-    width: 123.8%;
     background: white;
     justify-content: space-between;
     color: #333;
@@ -35,11 +30,16 @@ footer {
     align-items: flex-start;
     font-size: 16px;
     padding: 50px 0 100px;
+
+    li{
+        font-size: 20px;
+        width: 110%;
+    }
 }
     }
 
 .bloc {
-    flex-basis: 20%;
+    flex-basis: 200%;
     margin: 0 30px;
 }
 
@@ -54,10 +54,10 @@ footer {
 
 .footer-contact p {
     padding: 5px 0;
+    font-size: 20px;
 }
 
 /* Services */
-
 
 .services-list,
 .schedule-list,
@@ -70,10 +70,14 @@ footer {
 .services-list a {
     text-decoration: none;
     color: #333;
+    font-size: 20px;
 }
 .services-list a:hover {
     color: rgb(3,3,3);
 }
+
+
+/* Horaires */
 
 
 /* Medias */
