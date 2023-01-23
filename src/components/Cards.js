@@ -33,8 +33,8 @@ const Cards = () => {
             <div className="image2">
                 <img src="/media/posters/poster.png" />
             </div>
-            <div className="namePrice2">
-                <h3>Poster</h3>
+            <div className="namePrice">
+                <h3>Poster de MHA</h3>
                 <span>19,99 €</span>
             </div>
             <p>Poster de l'animé/manga My Hero Academia</p>
@@ -54,8 +54,8 @@ const Cards = () => {
             <div className="image2">
                 <img src="/media/mangas/manga one piece.png" />
             </div>
-            <div className="namePrice2">
-                <h3>Manga</h3>
+            <div className="namePrice">
+                <h3>Manga One piece</h3>
                 <span>6,99 €</span>
             </div>
             <p>One Piece - Édition originale - Tome 100</p>

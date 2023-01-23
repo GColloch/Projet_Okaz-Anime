@@ -55,33 +55,28 @@ h2{
 }
 
 .namePrice{
-  padding-top: 80px;
+  padding-top: 100px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .namePrice h3{
-  font-size: 2em;
+  font-size: 1.4em;
   text-transform: capitalize;
   color: var(--textColor);
+  max-width: 76%;
 }
 .namePrice span{
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--starColor);
 }
-.namePrice2{
-  padding-top: 110px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
 .namePrice2 h3{
-  font-size: 2em;
+  font-size: 1.4em;
   text-transform: capitalize;
   color: var(--textColor);
 }
 .namePrice2 span{
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: var(--starColor);
 }
 .product p{

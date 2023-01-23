@@ -37,7 +37,7 @@ const Footer = () => {
                 <h3>Nos réseaux</h3>
                 <ul className="media-list">
                   <li>
-                    <a>
+                    <a href='https://www.facebook.com/JapanimNantes'>
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -56,7 +56,7 @@ const Footer = () => {
                       Facebook</a>
                   </li>
                   <li>
-                    <a >
+                    <a  href='https://www.instagram.com/japanim.nantes/'>
                       <svg
                         aria-hidden="true"
                         focusable="false"

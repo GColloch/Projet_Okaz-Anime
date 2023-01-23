@@ -61,7 +61,12 @@
 
 @media screen and (min-width: 300px) {
   li{
-    font-size: 12px;
+    font-size: 7px;
+  }
+}
+@media screen and (min-width: 400px) {
+  li{
+    font-size: 10px;
   }
 }
 

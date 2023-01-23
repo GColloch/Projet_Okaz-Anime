@@ -96,6 +96,10 @@ footer {
     display: flex;
     align-items: center;
     font-size: 20px;
+
+    &:hover {
+        color: rgb(132, 134, 255);
+      }
 }
 li{
     padding-top: 10px;
