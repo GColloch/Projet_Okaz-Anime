@@ -1,0 +1,41 @@
+.logo {
+  margin: 5px;
+  padding-top: 30px;
+  padding-left: 15px;
+  
+}
+
+@media screen and (min-width: 300px) {
+  img{  
+    height: 50px;
+    width: 50px;
+  }
+  
+}
+
+@media screen and (min-width: 600px) {
+  img{  
+    height: 80px;
+    width: 80px;
+  }
+  .logo{
+    padding: 20px 35px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .logo{
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  img{  
+    height: 100px;
+    width: 100px;
+  }
+  .logo{
+    padding: 20px 25px;
+    
+  }
+}

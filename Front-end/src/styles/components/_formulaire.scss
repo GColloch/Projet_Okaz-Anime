@@ -1,0 +1,28 @@
+form {
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto; 
+    background-color: #ccc;
+    border-radius: 10px;
+
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 70%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

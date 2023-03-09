@@ -1,0 +1,139 @@
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 100px;
+}
+.products{
+  width: 100%;
+  align-self: center;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 100px;
+}
+.product{
+  position: relative;
+  background-color: var(--sectionBack);
+  margin-bottom: 50px;
+  width: 330px;
+  height: 500px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  flex-direction: column;
+  padding: 20px 20px 120px;
+  border-radius: 10px;
+  transition: .3s;
+}
+.product:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.image{
+  padding-top: 70px;
+  width:100%;
+  height: 60%;
+  display: grid;
+  place-content: center;
+}
+.image img{
+  width: 250px;
+  height: 250px;
+}
+
+.image2{
+  padding-top: 70px;
+  width:100%;
+  height: 60%;
+  display: grid;
+  place-content: center;
+}
+.image2 img{
+  width: 210px;
+  height: 260px;
+}
+
+.namePrice{
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.namePrice h3{
+  font-size: 1.4em;
+  text-transform: capitalize;
+  color: var(--textColor);
+  max-width: 76%;
+}
+.namePrice span{
+  font-size: 1.3em;
+  color: var(--starColor);
+}
+.namePrice2 h3{
+  font-size: 1.4em;
+  text-transform: capitalize;
+  color: var(--textColor);
+}
+.namePrice2 span{
+  font-size: 1.4em;
+  color: var(--starColor);
+}
+.product p{
+  max-width: 260px;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.stars svg{
+  font-size: 1.3em;
+  color: var(--starColor);
+}
+.bay{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.bay button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #1b2741;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .5s;
+}
+.bay button:hover{
+  transform: scale(1.1);
+}
+
+
+
+@media screen and (min-width: 300px) {
+  h2{  
+    font-size: 25px;
+  }
+  .product {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h2{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .product p{
+    font-size: 16px;
+  }  
+  .namePrice span{ 
+  font-size: 1.1em;
+  }
+  .namePrice h3 {
+    max-width: 70%;
+  }
+}
