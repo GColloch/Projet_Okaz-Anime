@@ -7,9 +7,14 @@
 
 .textLivraison {
   padding: 20px;
+  font-size: 20px;
   position: relative;
   z-index: 1;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 12px; // Taille de police pour les petits écrans
+  }
 }
 
 .containerLivraison::before {
