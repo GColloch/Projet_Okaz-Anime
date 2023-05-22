@@ -6,6 +6,7 @@ const Navigation = () => {
   return (
     <>
       <div className='nav'>
+          <Logo />
         <input type="checkbox" id="nav-check" />
         <div className="nav-btn">
           <label htmlFor="nav-check">
@@ -16,7 +17,6 @@ const Navigation = () => {
         </div>
 
         <div className='nav-links'>
-          <Logo />
           <ul>
             <NavLink to="/" style={{ textDecoration: 'none' }} className={(nav) => (nav.isActive ? "nav-active" : "")}>
               <li>ACCUEIL</li>

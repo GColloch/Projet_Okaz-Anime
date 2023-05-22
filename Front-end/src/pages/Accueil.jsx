@@ -14,7 +14,7 @@ const Accueil = () => {
         <Présentation />
         <Cards_Accueil />
         <Partenariat />
-        <Footer />
+        <Footer /> 
             
         </div>
     );
