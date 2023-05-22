@@ -4,6 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import Partenariat from '../components/Partenariat';
 import Présentation from '../components/Présentation';
 import Livraison from '../components/Livraison';
+import Banner from '../components/Banner';
 
 
 const Accueil = () => {
@@ -11,6 +12,7 @@ const Accueil = () => {
         <div>
         <Livraison />
         <Navigation />
+        <Banner />
         <Présentation />
         <Cards_Accueil />
         <Partenariat />

@@ -1,0 +1,20 @@
+.background-image-block {
+  position: relative;
+  width: 100%;
+}
+
+.background-image {
+  background-image: url('../../../public/media/header/fondAnime.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
