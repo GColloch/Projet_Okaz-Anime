@@ -1,0 +1,24 @@
+.containerLivraison {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.textLivraison {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.containerLivraison::before {
+  content: '';
+  background-color: #c3d7cc; // Couleur de fond (ici rouge)
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}

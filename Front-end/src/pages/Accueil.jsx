@@ -1,19 +1,15 @@
 import Cards_Accueil from '../components/Cards_Accueil';
-import Cards from '../components/Cards_Accueil';
 import Footer from '../components/Footer';
-import Logo from '../components/Logo';
-import Navigation from '../components/Navigation';
+import Navigation from '../Navigation/Navigation';
 import Partenariat from '../components/Partenariat';
 import Présentation from '../components/Présentation';
+import Livraison from '../components/Livraison';
 
-
-fetch("https://dummyjson.com/products").then((Response) => {
-    console.log(Response)
-})
 
 const Accueil = () => {
     return (
         <div>
+        <Livraison />
         <Navigation />
         <Présentation />
         <Cards_Accueil />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Navigation from '../Navigation/Navigation';
 import Footer from '../components/Footer';
 import Cards_Figurines from '../components/Cards_Figurines';
 

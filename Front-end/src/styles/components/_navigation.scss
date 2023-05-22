@@ -1,9 +1,8 @@
 .nav {
   height: 20vh;
   width: 100%;
-  background-color: #323131;
+  background-color: white;
   margin-bottom:100px ;
-  color: $color-1;
 
 }
 
@@ -20,8 +19,37 @@
   ul{
     display: flex;
     li{
-      color: $color-1;
+      color: black;
+      font-weight: bold;
       padding-right:50px ;
+      padding-bottom: 5px;
+    }
+    .nav-active {
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 7px;
+        width: 0;
+        background: $color-1;
+        position: absolute;
+        border-radius: 10px;
+        left: 30%;
+        transform: translateX(-50%);
+        -webkit-animation: anim 0.3s ease forwards;
+        animation: anim 0.6s ease forwards;
+
+        @-webkit-keyframes anim {
+          to {
+            width: 100%;
+          }
+        }
+        @keyframes anim {
+          to {
+            width: 60%;
+          }
+        }
+      }
     }
   }
 }
