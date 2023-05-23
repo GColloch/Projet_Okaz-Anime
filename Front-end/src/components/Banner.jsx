@@ -12,6 +12,11 @@ const Banner = () => {
       </div>
       <img className="overlay-image" src="./media/header/forme1.png" alt="Overlay Image" />
       <button className="overlay-button">NOS NOUVEAUTÉS !</button>
+      <p className='overlay-text'>
+        Au Japon, la culture de l’univers anime et manga est bien plus qu’une passion, c’est une dévotion ! <br />
+        Et aujourd’hui, tu disposes de cette culture à travers les Figurines Manga <br />
+que nous te présentons<span> sur notre boutique !</span>
+</p>
     </div>
   );
 };
