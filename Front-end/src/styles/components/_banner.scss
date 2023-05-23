@@ -38,6 +38,16 @@
   transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
   object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
 }
+.background-overlay-text {
+  position: absolute;
+  color: white;
+  font-family: 'manga';
+  font-size: 2.5em;
+  top: 47%;
+  left: 23%;
+  height: auto;
+  object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+}
 .overlay-image-left {
   position: absolute;
   top: 25%;

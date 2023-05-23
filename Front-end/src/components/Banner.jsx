@@ -8,6 +8,7 @@ const Banner = () => {
       <img className="overlay-image-right" src="./media/header/dbz.png" alt="right Image" />
       <img className="background-overlay2" src="./media/header/étoiles.png" alt="Overlay Image" />
       <img className="background-overlay" src="./media/header/figurines.png" alt="Overlay Image" />
+      <h1 className='background-overlay-text'>Figurines Mangas - Le Japon à Portée de Main !</h1>
       </div>
       <img className="overlay-image" src="./media/header/forme1.png" alt="Overlay Image" />
     </div>
