@@ -11,6 +11,7 @@ const Banner = () => {
       <h1 className='background-overlay-text'>Figurines Mangas - Le Japon à Portée de Main !</h1>
       </div>
       <img className="overlay-image" src="./media/header/forme1.png" alt="Overlay Image" />
+      <button className="overlay-button">NOS NOUVEAUTÉS !</button>
     </div>
   );
 };

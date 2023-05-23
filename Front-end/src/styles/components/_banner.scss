@@ -20,6 +20,19 @@
   width: 100%;
   height: auto;
 }
+.overlay-button {
+  position: absolute;
+  bottom: 10%;
+  left: 44%;
+  font-size: 16px;
+  background-color: #ff6b35;
+  font-family: 'Comme';
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  height: auto;
+}
 
 .background-overlay {
   position: absolute;
