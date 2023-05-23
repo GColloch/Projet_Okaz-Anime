@@ -29,6 +29,15 @@
   height: auto;
   object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
 }
+.background-overlay2 {
+  position: absolute;
+  top: 17%;
+  left: 55%;
+  width: 16%; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+  transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+  object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+}
 .overlay-image-left {
   position: absolute;
   top: 25%;
