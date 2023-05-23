@@ -18,3 +18,23 @@
   width: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .background-image {
+  background-image: url('../../../public/media/header/fondAnime.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh; /* Ajustez la hauteur selon vos besoins */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .background-image {
+  background-image: url('../../../public/media/header/fondAnime.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh; /* Ajustez la hauteur selon vos besoins */
+  }
+}
