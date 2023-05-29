@@ -3,8 +3,6 @@ import React from 'react';
 const Cards_Figurines = () => {
     return (
         <div className='products'>
-            
-
             <div className="product">
                 <div className="image">
                     <img src="/media/figurines/Gojo.png" />

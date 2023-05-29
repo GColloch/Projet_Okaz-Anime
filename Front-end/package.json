@@ -8,12 +8,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "mysql2": "^3.1.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-horizontal-scrolling-menu": "^4.0.4",
+    "react-icons": "^4.9.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.1",
     "sass": "^1.57.1",
     "sequelize": "^6.29.0",
+    "swiper": "^9.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.1"
   }
 }
