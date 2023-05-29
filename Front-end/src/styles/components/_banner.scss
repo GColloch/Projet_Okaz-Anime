@@ -48,16 +48,16 @@
 }
 .background-overlay {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 30%;
-  width: 35%; /* Ajustez la largeur selon vos besoins */
+  width: 40%; /* Ajustez la largeur selon vos besoins */
   height: auto;
   object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
 }
 .background-overlay2 {
   position: absolute;
-  top: 17%;
-  left: 55%;
+  top: 9%;
+  left: 58%;
   width: 16%; /* Ajustez la largeur selon vos besoins */
   height: auto;
   transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
@@ -93,6 +93,26 @@
 
 }
 
+@media screen and (max-width: 1400px) {
+  .background-overlay {
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    width: 45%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
+@media screen and (max-width: 1200px) {
+  .background-overlay {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    width: 55%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
 @media screen and (max-width: 1024px) {
   .background-image {
     background-image: url('../../../public/media/header/fondAnime.png');
@@ -101,8 +121,35 @@
     width: 100%;
     height: 90vh; /* Ajustez la hauteur selon vos besoins */
   }
+  .background-overlay {
+    position: absolute;
+    top: 19%;
+    left: 23%;
+    width: 55%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
-
+@media screen and (max-width: 900px) {
+  .background-overlay {
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    width: 55%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
+@media screen and (max-width: 800px) {
+  .background-overlay {
+    position: absolute;
+    top: 36%;
+    left: 23%;
+    width: 55%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
 @media screen and (max-width: 700px) {
   .background-image {
     background-image: url('../../../public/media/header/fondAnime.png');
@@ -111,4 +158,35 @@
     width: 100%;
     height: 50vh; /* Ajustez la hauteur selon vos besoins */
   }
+  .background-overlay {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 40%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
+@media screen and (max-width: 600px) {
+  .background-overlay {
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    width: 45%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background-overlay {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 45%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+}
+
+
