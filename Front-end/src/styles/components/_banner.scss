@@ -102,6 +102,15 @@
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .background-overlay2 {
+    position: absolute;
+    top: 13%;
+    left: 56%;
+    width: 20%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 1200px) {
   .background-overlay {
@@ -110,6 +119,15 @@
     left: 23%;
     width: 55%; /* Ajustez la largeur selon vos besoins */
     height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay2 {
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    width: 25%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
@@ -129,6 +147,15 @@
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .background-overlay2 {
+    position: absolute;
+    top: 15%;
+    left: 61%;
+    width: 25%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 900px) {
   .background-overlay {
@@ -139,6 +166,15 @@
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .background-overlay2 {
+    position: absolute;
+    top: 27%;
+    left: 61%;
+    width: 25%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 800px) {
   .background-overlay {
@@ -147,6 +183,15 @@
     left: 23%;
     width: 55%; /* Ajustez la largeur selon vos besoins */
     height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay2 {
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    width: 27%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
@@ -166,6 +211,15 @@
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .background-overlay2 {
+    position: absolute;
+    top: 19%;
+    left: 62%;
+    width: 20%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 600px) {
   .background-overlay {
@@ -174,6 +228,15 @@
     left: 30%;
     width: 45%; /* Ajustez la largeur selon vos besoins */
     height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay2 {
+    position: absolute;
+    top: 21%;
+    left: 62%;
+    width: 20%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
@@ -185,6 +248,15 @@
     left: 30%;
     width: 45%; /* Ajustez la largeur selon vos besoins */
     height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay2 {
+    position: absolute;
+    top: 31%;
+    left: 61%;
+    width: 22%; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
