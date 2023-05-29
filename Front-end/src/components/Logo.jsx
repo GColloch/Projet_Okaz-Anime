@@ -3,7 +3,7 @@ import '../styles/components/_logo.scss'
 const Logo = () => {
     return (
         <div className='logo'>
-            <img src='./logo.jpg' alt='logo okazanime' />
+            <img src='./logo.png' alt='logo okazanime' />
             
             
         </div>
