@@ -68,7 +68,7 @@
   color: white;
   font-family: 'manga';
   font-size: 2.5em;
-  top: 47%;
+  top: 38%;
   left: 23%;
   height: auto;
   object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
@@ -128,7 +128,16 @@
     width: 35%;
     height: auto;
     z-index: 2;  
-  
+  }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2.5em;
+    top: 45%;
+    left: 23%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
 @media screen and (max-width: 1200px) {
@@ -166,6 +175,16 @@
     height: auto;
     z-index: 2;
   }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2.5em;
+    top: 49%;
+    left: 23%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 1024px) {
   .background-image {
@@ -200,7 +219,16 @@
     height: auto;
     z-index: 2;  
   }
-  
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2em;
+    top: 45%;
+    left: 23%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 900px) {
   .background-overlay {
@@ -227,6 +255,16 @@
     width: 35%;
     height: auto;
     z-index: 2;  
+  }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2em;
+    top: 53%;
+    left: 23%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
 @media screen and (max-width: 800px) {
@@ -264,6 +302,16 @@
     height: auto;
     z-index: 2;
   }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 1.6em;
+    top: 55%;
+    left: 23%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 @media screen and (max-width: 700px) {
   .background-image {
@@ -297,6 +345,16 @@
     width: 40%;
     height: auto;
     z-index: 2;  
+  }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 1.3em;
+    top: 50%;
+    left: 29%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
 @media screen and (max-width: 600px) {
@@ -334,6 +392,16 @@
     height: auto;
     z-index: 2;
   }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 1.1em;
+    top: 47%;
+    left: 25%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -370,6 +438,16 @@
     width: 40%;
     height: auto;
     z-index: 2;
+  }
+  .background-overlay-text {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 0.9em;
+    top: 53%;
+    left: 25%;
+    height: auto;
+    object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
 }
 
