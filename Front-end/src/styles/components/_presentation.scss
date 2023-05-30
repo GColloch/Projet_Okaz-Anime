@@ -6,9 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  overflow: hidden; /* Ajout de l'overflow: hidden */
 }
-
 .banner-image {
   position: absolute;
   right: 0;
@@ -188,5 +186,144 @@ input[type=radio]:checked {
     justify-content: center;
     transition: transform 400ms ease;
   }
+  .banner-container {
+    margin-top: 100px;
+    position: relative;
+    background-color: #ff6b35;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner-title {
+    font-size: 1.2em;
+    font-family: 'manga';
+    margin: auto;
+    color: #ffffff;
+  }
+  .banner-image {
+    position: absolute;
+    right: 0%;
+    top: 73%;
+    z-index: 100;
+    height: auto;
+    width: 35%;
+    animation: slideIn 1s forwards;
+  }
+}
+@media screen and (min-width: 550px) {
+  .banner-container {
+    margin-top: 100px;
+    position: relative;
+    background-color: #ff6b35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner-title {
+    font-size: 1.5em;
+    font-family: 'manga';
+    margin: auto;
+    color: #ffffff;
+  }
+  .banner-image {
+    position: absolute;
+    right: 0%;
+    top: 66%;
+    z-index: 100;
+    height: auto;
+    width: 35%;
+    animation: slideIn 1s forwards;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .banner-container {
+    margin-top: 100px;
+    position: relative;
+    background-color: #ff6b35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner-title {
+    font-size: 2em;
+    font-family: 'manga';
+    margin: auto;
+    color: #ffffff;
+  }
+  .banner-image {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: 100;
+    height: auto;
+    width: 35%;
+    animation: slideIn 1s forwards;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .banner-container {
+    margin-top: 100px;
+    position: relative;
+    background-color: #ff6b35;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner-title {
+    font-size: 2.5em;
+    font-family: 'manga';
+    margin: auto;
+    color: #ffffff;
+  }
+  .banner-image {
+    position: absolute;
+    right: 0%;
+    top: 90%;
+    z-index: 100;
+    height: auto;
+    width: 35%;
+    animation: slideIn 1s forwards;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+  .banner-container {
+    margin-top: 100px;
+    position: relative;
+    background-color: #ff6b35;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner-image {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 100;
+    height: auto;
+    width: 25%;
+    animation: slideIn 1s forwards;
+  }
   
+  .banner-content {
+    text-align: center;
+    margin: auto;
+  
+  }
+  
+  .banner-title {
+    font-size: 4em;
+    font-family: 'manga';
+    margin: auto;
+    color: #ffffff;
+  }
 }
