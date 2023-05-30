@@ -22,12 +22,13 @@ footer {
 
 .content-footer {
     width: 100%;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     font-size: 16px;
-    padding: 50px 0 100px;
+    padding: 100px 130px 100px;
     background-color: $color-2;
 
     li{
@@ -45,8 +46,7 @@ footer {
 /* contact */
 .footer-contact h3,
 .footer-services h3,
-.footer-schedule h3,
-.footer-medias h3 {
+.footer-schedule h3{
     font-size: 22px;
     padding-bottom: 20px;
 }
@@ -56,6 +56,15 @@ footer {
     font-size: 20px;
 }
 
+button {
+    bottom: 0;
+    padding: 12px 30px 12px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #ff6b35;
+    font-size: 1em;
+    background-color: white;
+}
 /* Services */
 
 .services-list,
@@ -64,7 +73,7 @@ footer {
     list-style-type: none;
 }
 .services-list li {
-    padding: 2px 0;
+    padding: 8px 0;
 }
 .services-list a {
     text-decoration: none;
@@ -133,8 +142,7 @@ li{
     }
     .footer-contact h3,
     .footer-services h3,
-    .footer-schedule h3,
-    .footer-medias h3 {
+    .footer-schedule h3{
         padding-bottom: 5px;
     }
 
