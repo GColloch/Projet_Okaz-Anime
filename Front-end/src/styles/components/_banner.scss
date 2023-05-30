@@ -111,6 +111,25 @@
     transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .overlay-image-left {
+    position: absolute;
+    top: 25%;
+    left: -21%;
+    transform: rotate(45deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    width: 35%;
+    height: auto;
+    z-index: 2;
+  }
+  
+  .overlay-image-right {
+    position: absolute;
+    top: -35%;
+    right:-13%;
+    width: 35%;
+    height: auto;
+    z-index: 2;  
+  
+  }
 }
 @media screen and (max-width: 1200px) {
   .background-overlay {
@@ -129,6 +148,23 @@
     height: auto;
     transform: rotate(-2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .overlay-image-right {
+    position: absolute;
+    top: -31%;
+    right:-13%;
+    width: 35%;
+    height: auto;
+    z-index: 2;  
+  }
+  .overlay-image-left {
+    position: absolute;
+    top: 25%;
+    left: -21%;
+    transform: rotate(45deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    width: 35%;
+    height: auto;
+    z-index: 2;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -156,6 +192,15 @@
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .overlay-image-right {
+    position: absolute;
+    top: -29%;
+    right:-13%;
+    width: 35%;
+    height: auto;
+    z-index: 2;  
+  }
+  
 }
 @media screen and (max-width: 900px) {
   .background-overlay {
@@ -175,6 +220,14 @@
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .overlay-image-right {
+    position: absolute;
+    top: -26%;
+    right:-12.5%;
+    width: 35%;
+    height: auto;
+    z-index: 2;  
+  }
 }
 @media screen and (max-width: 800px) {
   .background-overlay {
@@ -193,6 +246,23 @@
     height: auto;
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .overlay-image-right {
+    position: absolute;
+    top: -26%;
+    right:-14%;
+    width: 40%;
+    height: auto;
+    z-index: 2;  
+  }
+  .overlay-image-left {
+    position: absolute;
+    top: 25%;
+    left: -23.9%;
+    transform: rotate(45deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    width: 40%;
+    height: auto;
+    z-index: 2;
   }
 }
 @media screen and (max-width: 700px) {
@@ -220,6 +290,14 @@
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .overlay-image-right {
+    position: absolute;
+    top: -37.5%;
+    right:-14.2%;
+    width: 40%;
+    height: auto;
+    z-index: 2;  
+  }
 }
 @media screen and (max-width: 600px) {
   .background-overlay {
@@ -238,6 +316,23 @@
     height: auto;
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .overlay-image-right {
+    position: absolute;
+    top: -28.5%;
+    right:-13%;
+    width: 35%;
+    height: auto;
+    z-index: 2;  
+  }
+  .overlay-image-left {
+    position: absolute;
+    top: 25%;
+    left: -23%;
+    transform: rotate(45deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    width: 40%;
+    height: auto;
+    z-index: 2;
   }
 }
 
@@ -258,6 +353,23 @@
     height: auto;
     transform: rotate(2deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .overlay-image-right {
+    position: absolute;
+    top: -29%;
+    right:-14.3%;
+    width: 40%;
+    height: auto;
+    z-index: 2;  
+  }
+  .overlay-image-left {
+    position: absolute;
+    top: 25%;
+    left: -23.6%;
+    transform: rotate(45deg); /* Remplacez l'angle (45deg) par la valeur de rotation souhaitée */
+    width: 40%;
+    height: auto;
+    z-index: 2;
   }
 }
 
