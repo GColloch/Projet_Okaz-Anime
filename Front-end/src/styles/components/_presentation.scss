@@ -1,3 +1,40 @@
+.banner-container {
+  margin-top: 100px;
+  position: relative;
+  background-color: #ff6b35;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden; /* Ajout de l'overflow: hidden */
+}
+
+.banner-image {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 100;
+  height: auto;
+  width: 25%;
+  animation: slideIn 1s forwards;
+}
+
+.banner-content {
+  text-align: center;
+  margin: auto;
+
+}
+
+.banner-title {
+  font-size: 4em;
+  font-family: 'manga';
+  margin: auto;
+  color: #ffffff;
+}
+
+
+
+
 #slider {
   position: relative;
   height: 10vw;

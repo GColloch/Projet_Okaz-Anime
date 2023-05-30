@@ -2,7 +2,14 @@ import React from 'react';
 
 const Présentation = () => {
   return (
-    <div>
+    <div>      
+        <img className="banner-image" src="/media/header/sunny.png" alt="Image de la bannière" />
+
+         <div className="banner-container">
+      <div className="banner-content">
+        <h1 className="banner-title">Nos produits phares</h1>
+      </div>
+    </div>
       <section id="slider">
   <input type="radio" name="slider" id="s1" checked />
   <input type="radio" name="slider" id="s2"/>
