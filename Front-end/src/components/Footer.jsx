@@ -3,33 +3,21 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
+          
             <div className="content-footer">
+              
+            <div className="bloc footer-contact">
+                <h3>À propos</h3>
+                <p>02 40 73 80 47</p>
+                <p>Japanim_Nantes@contact.com</p>
+                <p>3 Rue Santeuil 44 000 Nantes</p>
+              </div>
               <div className="bloc footer-services">
                 <h3>Services</h3>
                 <ul class="services-list">
                   <li><a >Ventes de Figurines</a></li>
                   <li><a >Ventes de Posters</a></li>
                   <li><a >Ventes de Mangas</a></li>
-                </ul>
-              </div>
-      
-              <div className="bloc footer-contact">
-                <h3>Contact</h3>
-                <p>02 40 73 80 47</p>
-                <p>Japanim_Nantes@contact.com</p>
-                <p>3 Rue Santeuil 44 000 Nantes</p>
-              </div>
-      
-              <div className="bloc footer-schedule">
-                <h3>Horaires</h3>
-                <ul className="schedule-list">
-                  <li>✔️ Lun 14:00-19:00</li>
-                  <li>✔️ Mar 10:00-19:00</li>
-                  <li>✔️ Mer 10:00-19:00</li>
-                  <li>✔️ Jeu 10:00-19:00</li>
-                  <li>✔️ Ven 10:00-19:00</li>
-                  <li>✔️ Sam 10:00-19:00</li>
-                  <li>✔️ Dim 13:00-17:00</li>
                 </ul>
               </div>
       

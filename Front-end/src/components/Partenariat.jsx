@@ -3,7 +3,11 @@ import React from 'react';
 const Partenariat = () => {
     return (
       <div>
-      <h2>Nos partenaires</h2>
+        <div className="banner-container">
+      <div className="banner-content">
+        <h1 className="banner-title">NOS PARTENAIRES</h1>
+      </div>
+    </div>
 
         <div class="slider-container slider-1">
           <div class="slider">
