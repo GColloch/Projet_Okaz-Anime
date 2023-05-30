@@ -3,8 +3,6 @@ import React from 'react';
 const Cards_Posters = () => {
     return (
         <div className='products'>
-            
-
             <div className="product">
                 <div className="image2">
                     <img src="/media/posters/asta.jpg" />

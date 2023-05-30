@@ -24,6 +24,7 @@ h2{
   flex-direction: column;
   padding: 20px 20px 120px;
   border-radius: 10px;
+  background: linear-gradient(135deg, #dc799e, #f5ccbd);
   transition: .3s;
 }
 .product:hover{
@@ -92,14 +93,14 @@ h2{
 }
 .bay{
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: -10px;
+  left: 30%;
 }
 .bay button{
   padding: 10px 20px;
-  border-radius: 7px;
+  border-radius: 2px;
   border: none;
-  background-color: #1b2741;
+  background-color: #333d43;
   color: white;
   font-size: 18px;
   text-transform: capitalize;
