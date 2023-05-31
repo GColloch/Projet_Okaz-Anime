@@ -21,10 +21,6 @@
   z-index: 1;
   font-weight: bold;
   margin-right: 200px;
-
-  @media (max-width: 768px) {
-    font-size: 12px; // Taille de police pour les petits écrans
-  }
 }
 
 .buttonContainer {
@@ -58,4 +54,77 @@
 .acceptButton:hover,
 .rejectButton:hover {
   opacity: 0.8;
+}
+
+// Responsive //
+@media (max-width: 1500px) {
+  .textCookies{
+    margin-right: 270px;
+    }
+}
+@media (max-width: 1400px) {
+  .textCookies{
+    margin-right: 270px;
+    font-size: 16px;
+    }
+    .acceptButton,
+    .rejectButton {
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-size: 15px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .acceptButton,
+    .rejectButton {
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-size: 12px;
+    }
+    
+    .cookieImage {
+      width: 40px; /* Ajustez la taille de l'image selon vos besoins */
+      height: auto;
+    }
+}
+@media (max-width: 1200px) {
+  .textCookies{
+    margin-right: 270px;
+    font-size: 13px;
+    max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+  .textCookies{
+    font-size: 12px; // Taille de police pour les petits écrans
+    max-width: 50%;
+    margin-right: 250px;
+    }
+    .acceptButton,
+    .rejectButton {
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+  .textCookies{
+    font-size: 9px; // Taille de police pour les petits écrans
+    max-width: 50%;
+    margin-right: 220px;
+    }
+    .acceptButton,
+    .rejectButton {
+  margin: 0 5px;
+  padding: 10px 25px;
+  font-size: 8px;
+    }
+    .cookieImage {
+      width: 25px; /* Ajustez la taille de l'image selon vos besoins */
+      height: auto;
+      margin-left: 20px;
+    }
 }
