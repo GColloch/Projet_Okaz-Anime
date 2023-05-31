@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="bloc footer-contact">
                 <h3>NEWSLETTER</h3>
                 <p>Okaz'Anime@contact.com</p>
-                <button>S'INSCRIRE</button>
+                <button className='inscription'>S'INSCRIRE</button>
               </div>
             </div>
           </footer>

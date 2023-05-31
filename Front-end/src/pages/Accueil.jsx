@@ -4,7 +4,8 @@ import Navigation from '../Navigation/Navigation';
 import Partenariat from '../components/Partenariat';
 import Livraison from '../components/Livraison';
 import Banner from '../components/Banner';
-import Carousel from '../components/Présentation';
+import Presentation from '../components/Présentation';
+import Cookies from '../components/Cookies';
 
 
 const Accueil = () => {
@@ -13,10 +14,11 @@ const Accueil = () => {
         <Livraison />
         <Navigation />
         <Banner />
-        <Carousel />
+        <Presentation />
         <Cards_Accueil />
         <Partenariat />
         <Footer /> 
+        <Cookies />
             
         </div>
     );
