@@ -6,6 +6,14 @@
   justify-content: center;
 
 }
+.IconPanier {
+  width: 40px;
+  height: auto;
+  color: black;
+}
+.IconPanier.active {
+  color: #ff6b35;
+}
 
 .nav > .nav-btn {
   display: none;
@@ -28,7 +36,9 @@
     }
     .nav-active {
       position: relative;
-
+      li{
+      color: #ff6b35;
+      }
       &::after {
         content: "";
         height: 7px;
