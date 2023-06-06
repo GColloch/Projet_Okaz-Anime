@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .banner-image {
   position: absolute;
   right: 0;
@@ -20,7 +21,6 @@
 .banner-content {
   text-align: center;
   margin: auto;
-
 }
 
 .banner-title {
@@ -30,17 +30,14 @@
   color: #ffffff;
 }
 
-
-
-
 #slider {
   position: relative;
   height: 10vw;
   margin-top: 300px;
+  margin-bottom: 300px;
   font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
   transform-style: preserve-3d;
-  
 }
 
 input[type=radio] {
@@ -54,7 +51,6 @@ input[type=radio] {
   cursor: pointer;
 }
 
-
 input[type=radio]:nth-child(5) {
   margin-right: 0px;
 }
@@ -62,12 +58,11 @@ input[type=radio]:nth-child(5) {
 input[type=radio]:checked {
   opacity: 0;
 }
+
 #slider label,
 #slider label img {
   position: absolute;
   width: 75%;
-  top: 30px;
-  padding-bottom: 20px;
   left: 12%;
   height: 60%;
   color: white;
@@ -80,82 +75,114 @@ input[type=radio]:checked {
   transition: transform 400ms ease;
 }
 
+#slider .mhacaroussel {
+  width: 55%;
+  left: 20%;
+  border: solid 5px;
+  height: auto;
+}
+#slider .DemonSlayercaroussel {
+  width: 70%;
+  height: auto;
+  left: 10%;
+}
+#slider .DBZ {
+  width: 50%;
+  height: auto;
+  left: 20%;
+}
+#slider .New {
+  position: absolute;
+  width: 26%;
+  top: 54%;
+  left: 56%;
+  height: auto;
+}
+
 #s1:checked ~ #slide1,
- #s2:checked ~ #slide2,
-  #s3:checked ~ #slide3 {
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3 {
   transform: translate3d(0%, 0, 0px);
 }
 
 #s1:checked ~ #slide2,
- #s2:checked ~ #slide3,
-    #s5:checked ~ #slide1 {
+#s2:checked ~ #slide3,
+#s5:checked ~ #slide1 {
   transform: translate3d(20%, 0, -100px);
 }
 
-
 #s1:checked ~ #slide3,
- #s2:checked ~ #slide1,
-  #s3:checked ~ #slide2{
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2 {
   transform: translate3d(-20%, 0, -100px);
 }
 
 @media screen and (min-width: 400px) {
-  .productCaroussel{
+  .productCaroussel {
     position: relative;
     background-color: var(--sectionBack);
     margin-bottom: 50px;
-    width: 150px;
-    height: 300px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     flex-direction: column;
-    padding: 20px 20px 120px;
+    padding: 20px 20px 20px;
     border-radius: 10px;
     background: linear-gradient(135deg, #dc799e, #f5ccbd);
     transition: .3s;
   }
-  .productCaroussel:hover{
+
+  .productCaroussel:hover {
     transform: translateY(-15px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   }
-  .image2Caroussel{
+
+  .image2Caroussel {
     padding-top: 70px;
-    width:100%;
+    width: 100%;
     height: 60%;
     display: grid;
     place-content: center;
   }
-  
-  .namePriceCaroussel{
+
+  .namePriceCaroussel {
     padding-top: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
-  .namePriceCaroussel h3{
-    font-size: 0.8em;
+
+  .namePriceCaroussel h3 {
+    z-index: 1000;
+    font-size: 1em;
     position: absolute;
     top: 5%;
     text-transform: capitalize;
     color: var(--textColor);
     max-width: 76%;
   }
-  .namePriceCaroussel span{
+
+  .namePriceCaroussel span {
+    position: absolute;
     font-size: 1.3em;
+    right: 10%;
+    bottom: 20%;
     color: var(--starColor);
   }
-  .productCaroussel p{
-    max-width: 260px;
-    font-size: 8px;
+
+  .productCaroussel p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 18px;
     line-height: 25px;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    
   }
-  .bayCaroussel{
+
+  .bayCaroussel {
     position: absolute;
     bottom: -10px;
     left: 20%;
   }
-  .bayCaroussel button{
+
+  .bayCaroussel button {
     padding: 10px 20px;
     border-radius: 2px;
     border: none;
@@ -166,17 +193,16 @@ input[type=radio]:checked {
     cursor: pointer;
     transition: .5s;
   }
-  .bayCaroussel button:hover{
+
+  .bayCaroussel button:hover {
     transform: scale(1.1);
   }
 
   #slider label img {
     position: absolute;
     width: 80%;
-    top: 30px;
-    padding-bottom: 20px;
+    top: 15%;
     left: 10%;
-    height: 60%;
     color: white;
     font-weight: bold;
     border-radius: 3px;
@@ -186,6 +212,7 @@ input[type=radio]:checked {
     justify-content: center;
     transition: transform 400ms ease;
   }
+
   .banner-container {
     margin-top: 100px;
     position: relative;
@@ -195,12 +222,14 @@ input[type=radio]:checked {
     align-items: center;
     justify-content: flex-start;
   }
+
   .banner-title {
     font-size: 1.2em;
     font-family: 'manga';
     margin: auto;
     color: #ffffff;
   }
+
   .banner-image {
     position: absolute;
     right: 0%;
@@ -211,6 +240,7 @@ input[type=radio]:checked {
     animation: slideIn 1s forwards;
   }
 }
+
 @media screen and (min-width: 550px) {
   .banner-container {
     margin-top: 100px;
@@ -221,12 +251,14 @@ input[type=radio]:checked {
     align-items: center;
     justify-content: flex-start;
   }
+
   .banner-title {
     font-size: 1.5em;
     font-family: 'manga';
     margin: auto;
     color: #ffffff;
   }
+
   .banner-image {
     position: absolute;
     right: 0%;
@@ -248,12 +280,14 @@ input[type=radio]:checked {
     align-items: center;
     justify-content: flex-start;
   }
+
   .banner-title {
     font-size: 2em;
     font-family: 'manga';
     margin: auto;
     color: #ffffff;
   }
+
   .banner-image {
     position: absolute;
     right: 0%;
@@ -264,7 +298,6 @@ input[type=radio]:checked {
     animation: slideIn 1s forwards;
   }
 }
-
 
 @media screen and (min-width: 1000px) {
   .banner-container {
@@ -276,12 +309,14 @@ input[type=radio]:checked {
     align-items: center;
     justify-content: flex-start;
   }
+
   .banner-title {
     font-size: 2.5em;
     font-family: 'manga';
     margin: auto;
     color: #ffffff;
   }
+
   .banner-image {
     position: absolute;
     right: 0%;
@@ -293,7 +328,6 @@ input[type=radio]:checked {
   }
 }
 
-
 @media screen and (min-width: 1400px) {
   .banner-container {
     margin-top: 100px;
@@ -304,6 +338,10 @@ input[type=radio]:checked {
     align-items: center;
     justify-content: flex-start;
   }
+  .productCaroussel {
+    border-radius: 20px;
+  }
+
   .banner-image {
     position: absolute;
     right: 0;
@@ -313,17 +351,40 @@ input[type=radio]:checked {
     width: 25%;
     animation: slideIn 1s forwards;
   }
-  
+
   .banner-content {
     text-align: center;
     margin: auto;
-  
   }
-  
+
   .banner-title {
     font-size: 4em;
     font-family: 'manga';
     margin: auto;
     color: #ffffff;
+  }
+  .bayCaroussel {
+    position: absolute;
+    left: 30%;
+  }
+  .bayCaroussel button {
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #333d43;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .namePriceCaroussel h3 {
+    z-index: 1000;
+    font-size: 1.3em;
+    position: absolute;
+    top: 5%;
+    text-transform: capitalize;
+    color: var(--textColor);
+    max-width: 76%;
   }
 }

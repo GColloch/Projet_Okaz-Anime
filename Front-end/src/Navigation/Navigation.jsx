@@ -56,6 +56,13 @@ const Navigation = () => {
             >
               <li>CONTACT</li>
             </NavLink>
+            <NavLink
+              to='/Profil'
+              style={{ textDecoration: 'none' }}
+              className={(nav) => (nav.isActive ? 'nav-active' : '')}
+            >
+              <li>CONNEXION / INSCRIPTION</li>
+            </NavLink>
             <NavLink to='/Shop' style={{ textDecoration: 'none' }}>
               <RiShoppingBasketLine
                 className={`IconPanier ${location.pathname === '/Shop' ? 'active' : ''}`}

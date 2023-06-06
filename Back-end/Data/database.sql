@@ -1,4 +1,14 @@
-/*Table des produits Figurines*/
+/* Création de la base de donnée Produits */
+
+CREATE DATABASE Produits;
+
+
+/*Sélection de la base de donnée Produits*/
+
+USE Produits;
+
+
+/* Table des produits Figurines */
 
 CREATE TABLE Figurines (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -8,7 +18,7 @@ CREATE TABLE Figurines (
 );
 
 
-/*Table des produits Mangas*/
+/* Table des produits Mangas */
 
 CREATE TABLE Mangas (
   id INT PRIMARY KEY AUTO_INCREMENT,
@@ -17,7 +27,7 @@ CREATE TABLE Mangas (
   prix DECIMAL(10, 2)
 );
 
-/*Table des produits Posters*/
+/* Table des produits Posters */
 
 CREATE TABLE Posters (
   id INT PRIMARY KEY AUTO_INCREMENT,

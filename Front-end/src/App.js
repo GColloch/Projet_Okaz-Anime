@@ -7,6 +7,7 @@ import Mangas from "./pages/Mangas";
 import Contact from "./pages/Contact";
 import Boutique from "./pages/Boutique";
 import Page_produit from "./pages/Page_produit";
+import Profil from "./pages/Profil";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Shop" element={<Boutique />} />
         <Route path="/Produit" element={<Page_produit />} />
+        <Route path="/Profil" element={<Profil />} />
       </Routes>
     </BrowserRouter>
   );

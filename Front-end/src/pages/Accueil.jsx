@@ -1,4 +1,3 @@
-import Cards_Accueil from '../components/Cards_Accueil';
 import Footer from '../components/Footer';
 import Navigation from '../Navigation/Navigation';
 import Partenariat from '../components/Partenariat';
@@ -15,7 +14,6 @@ const Accueil = () => {
         <Navigation />
         <Banner />
         <Presentation />
-        <Cards_Accueil />
         <Partenariat />
         <Footer /> 
         <Cookies />
