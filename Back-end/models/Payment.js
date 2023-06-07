@@ -19,7 +19,6 @@ const Payment = sequelize.define('Payment', {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  // autres champs de paiement
   timestamp: {
     type: DataTypes.DATE,
     defaultValue: DataTypes.NOW,

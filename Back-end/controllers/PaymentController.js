@@ -6,8 +6,11 @@ const makePayment = async (req, res) => {
     const { cardNumber, expirationDate, cvv } = req.body;
 
     // Valide et traite les informations de paiement
+    if (!cardNumber || !expirationDate || !cvv) {
+      return res.status(400).json({ error: 'Invalid payment details' });
+    }
 
-    // Enregistre la transaction dans la base de données
+    // Enregistrer la transaction dans la base de données
     const payment = new Payment({
       cardNumber,
       expirationDate,
