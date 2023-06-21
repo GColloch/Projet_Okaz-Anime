@@ -38,7 +38,7 @@ const Présentation = () => {
         <label htmlFor="s2" id="slide2">
           <div className="productCaroussel2">
             <div className="image2Caroussel namePriceCaroussel">
-              <h3>Manga Dragon Ball</h3>
+              <h3>MANGA DRAGON BALL</h3>
               <img className="DBZ" src="/media/mangas/dbz.jpg" alt="Image du manga" />
             </div>
             <div className="namePriceCaroussel">
@@ -55,7 +55,7 @@ const Présentation = () => {
         <label htmlFor="s5" id="slide3">
           <div className="productCaroussel3">
             <div className="image2Caroussel namePriceCaroussel">
-              <h3>Kamado Tanjiro</h3>
+              <h3>KAMADO TANJIRO</h3>
               <img className="DemonSlayercaroussel" src="/media/figurines/tanjiro.png" alt="Image du manga" />
             </div>
             <div className="namePriceCaroussel">

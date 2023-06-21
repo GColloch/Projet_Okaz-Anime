@@ -28,7 +28,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     font-size: 16px;
-    padding: 100px 130px 100px;
+    padding: 100px 130px 30px;
     background-color: $color-2;
 
     li{
@@ -57,13 +57,14 @@ footer {
 }
 
 .inscription {
-    bottom: 0;
+    margin-top: 10px;
     padding: 12px 30px 12px 30px;
     border-radius: 15px;
     font-weight: bold;
     color: #ff6b35;
     font-size: 1em;
     background-color: white;
+    border: none;
 }
 /* Services */
 
@@ -83,10 +84,21 @@ footer {
 .services-list a:hover {
     color: white;
 }
-
-
 /* Horaires */
-
+.droits {
+    margin-top: 50px;
+    hr {
+        color: #c3d7cc;
+        width: 700px;
+    }
+}
+.services-text {
+    color: #c3d7cc;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
 
 /* Medias */
 
@@ -135,6 +147,10 @@ li{
     .content-footer {
         justify-content: center;
         padding-top: 30px;
+    }
+    .droits hr {
+        color: #c3d7cc;
+        width: 400px;
     }
     .bloc {
         flex-basis: 70%;
