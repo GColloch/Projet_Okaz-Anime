@@ -30,8 +30,25 @@
   color: #ffffff;
 }
 
+.productCaroussel1{
+  border-radius: 20px;
+  width: 320px;
+  height: 430px;
+}
+.productCaroussel2{
+  border-radius: 20px;
+  width: 320px;
+  height: 430px;
+  margin-left: 150px;
+}
+.productCaroussel3{
+  border-radius: 20px;
+  width: 320px;
+  height: 430px;
+  margin-right: 150px;
+}
+
 #slider {
-  position: relative;
   height: 10vw;
   margin-top: 300px;
   margin-bottom: 300px;
@@ -74,7 +91,6 @@ input[type=radio]:checked {
   justify-content: center;
   transition: transform 400ms ease;
 }
-
 #slider .mhacaroussel {
   width: 55%;
   left: 20%;
@@ -116,9 +132,30 @@ input[type=radio]:checked {
 #s3:checked ~ #slide2 {
   transform: translate3d(-20%, 0, -100px);
 }
-
 @media screen and (min-width: 400px) {
-  .productCaroussel {
+  .productCaroussel1 {
+    position: relative;
+    background-color: var(--sectionBack);
+    margin-bottom: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    transition: .3s;
+  }
+  .productCaroussel2 {
+    position: relative;
+    background-color: var(--sectionBack);
+    margin-bottom: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    flex-direction: column;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    transition: .3s;
+  }
+  .productCaroussel3 {
     position: relative;
     background-color: var(--sectionBack);
     margin-bottom: 50px;
@@ -130,7 +167,15 @@ input[type=radio]:checked {
     transition: .3s;
   }
 
-  .productCaroussel:hover {
+  .productCaroussel1:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  }
+  .productCaroussel2:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  }
+  .productCaroussel3:hover {
     transform: translateY(-15px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   }
@@ -166,14 +211,6 @@ input[type=radio]:checked {
     right: 10%;
     bottom: 20%;
     color: var(--starColor);
-  }
-
-  .productCaroussel p {
-    position: absolute;
-    bottom: 10%;
-    font-size: 18px;
-    line-height: 25px;
-    
   }
 
   .bayCaroussel {
@@ -294,7 +331,7 @@ input[type=radio]:checked {
     top: 100%;
     z-index: 100;
     height: auto;
-    width: 35%;
+    width: 30%;
     animation: slideIn 1s forwards;
   }
 }
@@ -337,9 +374,6 @@ input[type=radio]:checked {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-  .productCaroussel {
-    border-radius: 20px;
   }
 
   .banner-image {
@@ -387,4 +421,273 @@ input[type=radio]:checked {
     color: var(--textColor);
     max-width: 76%;
   }
+}
+@media screen and (max-width: 1400px) {
+.productCaroussel1{
+  border-radius: 20px;
+  width: 280px;
+  height: 380px;
+  }
+.productCaroussel2{
+  border-radius: 20px;
+  width: 280px;
+  height: 380px;
+  margin-left: 250px;
+  }
+.productCaroussel3{
+  border-radius: 20px;
+  width: 280px;
+  height: 380px;
+  margin-right: 250px;
+  }
+  .namePriceCaroussel h3 {
+    z-index: 1000;
+    font-size: 1.3em;
+    position: absolute;
+    top: 5%;
+    text-transform: capitalize;
+    color: var(--textColor);
+    max-width: 76%;
+  }
+  .bayCaroussel {
+    position: absolute;
+    left: 25%;
+  }
+  .bayCaroussel button {
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: #333d43;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .productCaroussel1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .productCaroussel2 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .productCaroussel3 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .productCaroussel1{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    }
+  .productCaroussel2{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin-left: 200px;
+    }
+  .productCaroussel3{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin-right: 200px;
+    }
+    .namePriceCaroussel h3 {
+      z-index: 1000;
+      font-size: 1em;
+      position: absolute;
+      top: 5%;
+      text-transform: capitalize;
+      color: var(--textColor);
+      max-width: 76%;
+    }
+    .productCaroussel1 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 10px;
+      line-height: 20px;
+    }
+    .productCaroussel2 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 10px;
+      line-height: 20px;
+    }
+    .productCaroussel3 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 10px;
+      line-height: 20px;
+    }
+    .bayCaroussel {
+      position: absolute;
+      left: 25%;
+    }
+    .bayCaroussel button {
+      padding: 10px 15px;
+      border-radius: 2px;
+      border: none;
+      background-color: #333d43;
+      color: white;
+      font-size: 10px;
+      text-transform: capitalize;
+      cursor: pointer;
+      transition: .5s;
+    }
+    .namePriceCaroussel span {
+      position: absolute;
+      font-size: 1em;
+      right: 10%;
+      bottom: 20%;
+      color: var(--starColor);
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .productCaroussel1{
+    border-radius: 20px;
+    width: 180px;
+    height: 260px;
+    }
+  .productCaroussel2{
+    border-radius: 20px;
+    width: 180px;
+    height: 260px;
+    margin-left: 200px;
+    }
+  .productCaroussel3{
+    border-radius: 20px;
+    width: 180px;
+    height: 260px;
+    margin-right: 200px;
+    }
+    .productCaroussel1 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 8px;
+      line-height: 20px;
+    }
+    .productCaroussel2 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 8px;
+      line-height: 20px;
+    }
+    .productCaroussel3 p {
+      position: absolute;
+      bottom: 10%;
+      font-size: 8px;
+      line-height: 20px;
+    }
+    .namePriceCaroussel h3 {
+      z-index: 1000;
+      font-size: 0.8em;
+      position: absolute;
+      top: 5%;
+      text-transform: capitalize;
+      color: var(--textColor);
+      max-width: 76%;
+    }   
+}
+@media screen and (max-width: 550px) {
+  .productCaroussel1{
+    border-radius: 20px;
+    width: 130px;
+    height: 200px;
+    }
+  .productCaroussel2{
+    border-radius: 20px;
+    width: 130px;
+    height: 200px;
+    margin-left: 150px;
+    }
+  .productCaroussel3{
+    border-radius: 20px;
+    width: 130px;
+    height: 200px;
+    margin-right: 150px;
+    }
+    .namePriceCaroussel h3 {
+      z-index: 1000;
+      font-size: 0.6em;
+      position: absolute;
+      top: 5%;
+      text-transform: capitalize;
+      color: var(--textColor);
+      max-width: 76%;
+    }
+    #slider .mhacaroussel {
+      width: 45%;
+      left: 25%;
+      border: solid 3px;
+      height: auto;
+  }
+  #slider .DBZ {
+    width: 40%;
+    left: 30%;
+    height: auto;
+  }
+#slider .DemonSlayercaroussel {
+  width: 55%;
+  left: 20%;
+  height: auto;
+  }
+  .bayCaroussel {
+    position: absolute;
+    left: 25%;
+  }
+  .bayCaroussel button {
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #333d43;
+    color: white;
+    font-size: 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .namePriceCaroussel span {
+    position: absolute;
+    font-size: 0.7em;
+    right: 10%;
+    bottom: 32%;
+    color: var(--starColor);
+  }
+  .productCaroussel1 p {
+    position: absolute;
+    bottom: 15%;
+    font-size: 7px;
+    line-height: 15px;
+  }
+  .productCaroussel2 p {
+    position: absolute;
+    bottom: 15%;
+    font-size: 7px;
+    line-height: 15px;
+  }
+  .productCaroussel3 p {
+    position: absolute;
+    bottom: 15%;
+    font-size: 7px;
+    line-height: 15px;
+  }
+  #slider .New {
+    position: absolute;
+    width: 26%;
+    top: 40%;
+    left: 50%;
+    height: auto;
+}
 }

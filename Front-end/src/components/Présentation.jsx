@@ -18,7 +18,7 @@ const Présentation = () => {
         <input type="radio" name="slider" id="s5" />
 
         <label htmlFor="s1" id="slide1">
-          <div className="productCaroussel" style={{ width: '300px', height: '400px' }}>
+          <div className="productCaroussel1">
             <div className="image2Caroussel namePriceCaroussel">
               <h3>POSTER DE MHA</h3>
               <img className="mhacaroussel" src="/media/posters/mha.png" alt="Image du manga" />
@@ -36,9 +36,9 @@ const Présentation = () => {
         </label>
 
         <label htmlFor="s2" id="slide2">
-          <div className="productCaroussel" style={{ width: '300px', height: '400px' }}>
+          <div className="productCaroussel2">
             <div className="image2Caroussel namePriceCaroussel">
-              <h3>Manga DB</h3>
+              <h3>Manga Dragon Ball</h3>
               <img className="DBZ" src="/media/mangas/dbz.jpg" alt="Image du manga" />
             </div>
             <div className="namePriceCaroussel">
@@ -53,9 +53,9 @@ const Présentation = () => {
         </label>
 
         <label htmlFor="s5" id="slide3">
-          <div className="productCaroussel" style={{ width: '300px', height: '400px' }}>
+          <div className="productCaroussel3">
             <div className="image2Caroussel namePriceCaroussel">
-              <h3>Tanjiro</h3>
+              <h3>Kamado Tanjiro</h3>
               <img className="DemonSlayercaroussel" src="/media/figurines/tanjiro.png" alt="Image du manga" />
             </div>
             <div className="namePriceCaroussel">
