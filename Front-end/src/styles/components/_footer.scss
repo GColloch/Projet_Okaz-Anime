@@ -33,7 +33,7 @@ footer {
 
     li{
         font-size: 20px;
-        width: 110%;
+        width: 100%;
     }
 }
     }
@@ -148,10 +148,6 @@ li{
         justify-content: center;
         padding-top: 30px;
     }
-    .droits hr {
-        color: #c3d7cc;
-        width: 400px;
-    }
     .bloc {
         flex-basis: 70%;
         /* margin: 10px; */
@@ -162,4 +158,10 @@ li{
         padding-bottom: 5px;
     }
 
+}
+@media screen and (max-width: 700px) {
+.droits hr {
+    color: #c3d7cc;
+    width: 400px;
+}
 }

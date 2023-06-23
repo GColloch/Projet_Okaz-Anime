@@ -1,10 +1,10 @@
 import React from 'react';
+import Navigation from '../Navigation/Navigation';
 
 const Profil = () => {
+  
   return (
-    <div>
-      
-    </div>
+    <Navigation />
   );
 };
 

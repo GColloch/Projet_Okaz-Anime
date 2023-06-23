@@ -1,27 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { RiShoppingBasketLine } from 'react-icons/ri';
 import Logo from '../components/Logo';
 
 const Navigation = () => {
   const location = useLocation();
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleActive = () => {
+    setIsActive(!isActive);
+  };
+
+  const closeNav = () => {
+    setIsActive(false);
+  };
 
   return (
-    <>
-      <div className='nav'>
-        <Logo />
-        <input type='checkbox' id='nav-check' />
-        <div className='nav-btn'>
-          <label htmlFor='nav-check'>
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-
-        <div className='nav-links'>
-          <ul>
-            <NavLink
+    <div>
+      <nav id="nav" className={isActive ? 'active' : ''}>
+    <Logo />
+        <ul>
+        <NavLink
               to='/'
               style={{ textDecoration: 'none' }}
               className={(nav) => (nav.isActive ? 'nav-active' : '')}
@@ -69,9 +68,11 @@ const Navigation = () => {
               />
             </NavLink>
           </ul>
+        <div id="icons" onClick={toggleActive}>
+          {/* Ajoutez ici l'icône du bouton burger */}
         </div>
-      </div>
-    </>
+      </nav>
+    </div>
   );
 };
 

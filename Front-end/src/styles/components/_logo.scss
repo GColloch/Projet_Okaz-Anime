@@ -1,6 +1,5 @@
 .logo {
   padding-top: 30px;
-  padding-left: 15px;
 }
 
 @media screen and (min-width: 300px) {
@@ -8,21 +7,26 @@
     height: 50px;
     width: 100px;
   }
+  .logo{
+    padding: 20px 35px;
+    margin: auto;
+  }
   
 }
 
 @media screen and (min-width: 600px) {
   img{  
-    height: 80px;
-    width: 135px;
+    height: 100px;
+    width: 170px;
   }
   .logo{
     padding: 20px 35px;
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .logo{
-    padding: 15px 35px;
+    padding: 15px 100px;
   }
 }
