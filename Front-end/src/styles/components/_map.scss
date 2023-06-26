@@ -4,3 +4,17 @@ iframe {
     margin-bottom: 200px;
     margin-top: 100px;
 }
+
+@media (max-width: 600px) {
+    iframe {
+    width: 450px;
+    height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    iframe {
+    width: 400px;
+    height: 250px;
+    }
+}

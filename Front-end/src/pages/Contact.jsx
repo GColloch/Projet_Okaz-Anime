@@ -1,18 +1,23 @@
-import React from 'react';
+import {useState} from 'react';
 import Footer from '../components/Footer';
-import Form from '../components/Form';
 import Map from '../components/Map';
 import Navigation from '../Navigation/Navigation';
 import Livraison from '../components/Livraison';
+import FormContact from '../components/FormContact';
+import BannerContact from '../components/BannerContact';
+import Cookies from '../components/Cookies';
 
 const Contact = () => {
+    
     return (
         <div>
             <Livraison />
             <Navigation />
-            <Form />
+            <BannerContact />
+            <FormContact />
             <Map />
             <Footer />
+            <Cookies />
         </div>
     );
 };
