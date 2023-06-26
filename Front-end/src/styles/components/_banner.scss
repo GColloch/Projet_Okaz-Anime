@@ -12,6 +12,13 @@
   width: 100%;
   height: 100vh; /* Ajustez la hauteur selon vos besoins */
 }
+.background-image2 {
+  background-image: url('../../../public/media/header/fondAnime1.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh; /* Ajustez la hauteur selon vos besoins */
+}
 
 .overlay-image {
   position: absolute;
@@ -69,9 +76,18 @@
   font-family: 'manga';
   font-size: 2.5em;
   top: 38%;
-  left: 23%;
+  left: 30%;
   height: auto;
   object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+}
+.background-overlay-text2 {
+  position: absolute;
+  color: white;
+  font-family: 'manga';
+  font-size: 6em;
+  left: 35%;
+  top: 40%;
+  margin: auto;
 }
 .overlay-image-left {
   position: absolute;
@@ -139,6 +155,16 @@
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
   }
+  .background-overlay-text2 {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 5em;
+    left: 35%;
+    top: 50%;
+    margin: auto;
+  }
+  
   .overlay-button {
     position: absolute;
     bottom: 6%;
@@ -232,6 +258,13 @@
     width: 100%;
     height: 90vh; /* Ajustez la hauteur selon vos besoins */
   }
+  .background-image2 {
+    background-image: url('../../../public/media/header/fondAnime.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 18vh; /* Ajustez la hauteur selon vos besoins */
+  }
   .background-overlay {
     position: absolute;
     top: 19%;
@@ -266,6 +299,15 @@
     left: 23%;
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay-text2 {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 3em;
+    left: 35%;
+    top: 36%;
+    margin: auto;
   }
   .overlay-button {
     position: absolute;
@@ -414,6 +456,13 @@
     width: 100%;
     height: 50vh; /* Ajustez la hauteur selon vos besoins */
   }
+  .background-image2 {
+    background-image: url('../../../public/media/header/fondAnime.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 15vh; /* Ajustez la hauteur selon vos besoins */
+  }
   .background-overlay {
     position: absolute;
     top: 25%;
@@ -448,6 +497,15 @@
     left: 29%;
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay-text2 {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2em;
+    left: 35%;
+    top: 35%;
+    margin: auto;
   }
   .overlay-button {
     position: absolute;
@@ -512,6 +570,15 @@
     left: 25%;
     height: auto;
     object-fit: contain; /* Utilisez "contain" pour conserver les proportions de l'image */
+  }
+  .background-overlay-text2 {
+    position: absolute;
+    color: white;
+    font-family: 'manga';
+    font-size: 2em;
+    left: 33%;
+    top: 28%;
+    margin: auto;
   }
   .overlay-button {
     position: absolute;

@@ -83,7 +83,6 @@ input[type=radio]:checked {
   left: 12%;
   height: 60%;
   color: white;
-  font-weight: bold;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
@@ -137,10 +136,8 @@ input[type=radio]:checked {
     position: relative;
     background-color: var(--sectionBack);
     margin-bottom: 50px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     flex-direction: column;
     padding: 20px 20px 20px;
-    border-radius: 10px;
     background: linear-gradient(135deg, #dc799e, #f5ccbd);
     transition: .3s;
   }
@@ -148,10 +145,8 @@ input[type=radio]:checked {
     position: relative;
     background-color: var(--sectionBack);
     margin-bottom: 50px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     flex-direction: column;
     padding: 20px 20px 20px;
-    border-radius: 10px;
     background: linear-gradient(135deg, #dc799e, #f5ccbd);
     transition: .3s;
   }
@@ -159,10 +154,8 @@ input[type=radio]:checked {
     position: relative;
     background-color: var(--sectionBack);
     margin-bottom: 50px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     flex-direction: column;
     padding: 20px 20px 20px;
-    border-radius: 10px;
     background: linear-gradient(135deg, #dc799e, #f5ccbd);
     transition: .3s;
   }
