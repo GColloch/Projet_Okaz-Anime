@@ -15,6 +15,7 @@ const Contact = () => {
             <Navigation />
             <BannerContact />
             <FormContact />
+            <img className='goku' src="./media/body/gokumail.png" alt="" />
             <Map />
             <Footer />
             <Cookies />

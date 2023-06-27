@@ -56,7 +56,7 @@ const Navigation = () => {
               <li>CONTACT</li>
             </NavLink>
             <NavLink
-              to='/Profil'
+              to='/Register'
               style={{ textDecoration: 'none' }}
               className={(nav) => (nav.isActive ? 'nav-active' : '')}
             >

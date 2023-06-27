@@ -43,7 +43,6 @@ footer {
     flex-basis: 200%;
     margin: 0 30px;
 }
-
 /* contact */
 .footer-contact h3,
 .footer-services h3,
@@ -76,6 +75,10 @@ footer {
 }
 .services-list li {
     padding: 8px 0;
+}
+.blocfooter-services h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
 }
 .services-list a {
     text-decoration: none;

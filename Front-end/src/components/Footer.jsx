@@ -9,7 +9,7 @@ const Footer = () => {
                     <p>Qui sommes nous ?</p>
                     <p>8 rue d'Alger 44000 Nantes</p>
                 </div>
-                <div className="bloc footer-services">
+                <div className="blocfooter-services">
                     <h3>SERVICES</h3>
                     <ul className="services-list">
                         <li><a>Suivre ma commande</a></li>

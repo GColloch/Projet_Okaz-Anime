@@ -1,3 +1,4 @@
+import React from 'react';
 import {useState} from 'react';
 import Navigation from '../Navigation/Navigation';
 import Livraison from '../components/Livraison';
@@ -7,7 +8,7 @@ import Cookies from '../components/Cookies';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
-const Profil = () => {
+const Login = () => {
   const [values, setValues] = useState({
     username: "",
     email: "",
@@ -19,17 +20,6 @@ const Profil = () => {
   const inputs = [
     {
       id: 1,
-      name: "username",
-      type: "text",
-      placeholder: "Prénom",
-      errorMessage:
-        "Votre Prénom doit être composé de 3 à 16 caractères et ne doit pas comporter de caractères spéciaux !",
-      label: "Prénom",
-      pattern: "^[A-Za-z0-9]{3,16}$",
-      required: true,
-    },
-    {
-      id: 2,
       name: "email",
       type: "email",
       placeholder: "Email",
@@ -38,14 +28,7 @@ const Profil = () => {
       required: true,
     },
     {
-      id: 3,
-      name: "birthday",
-      type: "date",
-      placeholder: "Anniversaire",
-      label: "Anniversaire",
-    },
-    {
-      id: 4,
+      id: 2,
       name: "password",
       type: "password",
       placeholder: "mot de passe",
@@ -54,17 +37,7 @@ const Profil = () => {
       label: "mot de passe",
       pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
       required: true,
-    },
-    {
-      id: 5,
-      name: "confirmPassword",
-      type: "password",
-      placeholder: "Confirmer votre mot de passe",
-      errorMessage: "Votre mot de passe ne correspond pas",
-      label: "Confirmer votre mot de passe",
-      pattern: values.password,
-      required: true,
-    },
+    }
   ];
 const handleSubmit = (e) => {
     e.preventDefault();
@@ -81,7 +54,7 @@ const handleSubmit = (e) => {
             <BannerConnexionInscription />
             <div className="containerform">
       <form onSubmit={handleSubmit}>
-        <h1>Inscription</h1>
+        <h1>Connexion</h1>
         {inputs.map((input) => (
           <FormLogin
             key={input.id}
@@ -90,11 +63,10 @@ const handleSubmit = (e) => {
             onChange={onChange}
           />
         ))}
-        <button className='register'>S'inscrire</button>
-        <Link to="/Login">
-  <button className='register'>Se connecter</button>
+        <button className='register'>Se connecter</button>
+        <Link to="/Register">
+  <button className='register'>Se déconnecter</button>
 </Link>
-
       </form>
     </div>
     <Footer />
@@ -104,4 +76,4 @@ const handleSubmit = (e) => {
   );
 };
 
-export default Profil;
+export default Login;

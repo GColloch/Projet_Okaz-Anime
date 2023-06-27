@@ -8,10 +8,11 @@ const Cards_Posters = () => {
                     <img src="/media/posters/asta.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>Asta</h3>
+                    <h3>ASTA</h3>
                     <span>17,99 €</span>
                 </div>
-                <p>Poster de Asta de l'animé/manga Black Cover</p>
+                <p>Poster de l’animé <br />
+« Black Clover »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
@@ -29,10 +30,11 @@ const Cards_Posters = () => {
                     <img src="/media/posters/eren.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>Eren</h3>
+                    <h3>EREN JAEGER</h3>
                     <span>14,99 €</span>
                 </div>
-                <p>Poster d'Eren de l'animé/manga Attaque des titans</p>
+                <p>Poster de l’animé <br />
+« l’Attaque Des Titans »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
@@ -49,10 +51,11 @@ const Cards_Posters = () => {
                     <img src="/media/posters/ichigo.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>Ichigo</h3>
+                    <h3>ICHIGO KUROSAKI</h3>
                     <span>9,99 €</span>
                 </div>
-                <p>Poster d'Ichigo de l'animé/manga Bleach</p>
+                <p>Poster de l’animé <br />
+« Bleach »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
@@ -69,10 +72,11 @@ const Cards_Posters = () => {
                     <img src="/media/posters/berserk.jpg"  />
                 </div>
                 <div className="namePrice">
-                    <h3>Poster Berserk</h3>
+                    <h3>BERSERK</h3>
                     <span>19,99 €</span>
                 </div>
-                <p>Poster d'Ichigo du manga Berserk</p>
+                <p>Poster du manga <br />
+« Berserk »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
@@ -86,13 +90,14 @@ const Cards_Posters = () => {
             </div>
             <div className="product">
                 <div className="image2">
-                    <img src="/media/posters/poster.png" />
+                    <img src="/media/posters/mha.png" />
                 </div>
                 <div className="namePrice">
-                    <h3>Poster MHA</h3>
-                    <span>19,99 €</span>
+                    <h3>MY HERO ACADEMIA</h3>
+                    <span>13,99 €</span>
                 </div>
-                <p>Poster de l'animé/manga My Hero Academia</p>
+                <p>Poster de l’animé <br />
+« My Hero Academia »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
@@ -109,10 +114,11 @@ const Cards_Posters = () => {
                     <img src="/media/posters/onepiece.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>Poster One Piece</h3>
+                    <h3>ONE PIECE</h3>
                     <span>18,99€</span>
                 </div>
-                <p>Poster de l'animé/manga One Piece</p>
+                <p>Poster de l’animé <br />
+« One Piece »</p>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>

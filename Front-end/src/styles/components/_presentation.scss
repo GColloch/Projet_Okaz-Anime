@@ -39,13 +39,13 @@
   border-radius: 20px;
   width: 320px;
   height: 430px;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 .productCaroussel3{
   border-radius: 20px;
   width: 320px;
   height: 430px;
-  margin-right: 150px;
+  margin-right: 300px;
 }
 
 #slider {
@@ -190,12 +190,14 @@ input[type=radio]:checked {
 
   .namePriceCaroussel h3 {
     z-index: 1000;
-    font-size: 1em;
+    font-size: 0.3em;
     position: absolute;
     top: 5%;
     text-transform: capitalize;
     color: var(--textColor);
     max-width: 76%;
+    left: 15%;
+    font-family: 'Comme';
   }
 
   .namePriceCaroussel span {
@@ -204,6 +206,7 @@ input[type=radio]:checked {
     right: 10%;
     bottom: 20%;
     color: var(--starColor);
+    font-family: 'Comme';
   }
 
   .bayCaroussel {
@@ -222,6 +225,7 @@ input[type=radio]:checked {
     text-transform: capitalize;
     cursor: pointer;
     transition: .5s;
+    font-family: 'Comme';
   }
 
   .bayCaroussel button:hover {
@@ -326,6 +330,16 @@ input[type=radio]:checked {
     height: auto;
     width: 30%;
     animation: slideIn 1s forwards;
+  }
+  .namePriceCaroussel h3 {
+    z-index: 1000;
+    font-size: 0.3em;
+    position: absolute;
+    top: 5%;
+    text-transform: capitalize;
+    color: var(--textColor);
+    max-width: 76%;
+    left: 15%;
   }
 }
 
@@ -435,12 +449,13 @@ input[type=radio]:checked {
   }
   .namePriceCaroussel h3 {
     z-index: 1000;
-    font-size: 1.3em;
+    font-size: 1.1em;
     position: absolute;
     top: 5%;
     text-transform: capitalize;
     color: var(--textColor);
     max-width: 76%;
+    left: 15%;
   }
   .bayCaroussel {
     position: absolute;
@@ -498,7 +513,7 @@ input[type=radio]:checked {
     }
     .namePriceCaroussel h3 {
       z-index: 1000;
-      font-size: 1em;
+      font-size: 0.8em;
       position: absolute;
       top: 5%;
       text-transform: capitalize;
@@ -585,7 +600,7 @@ input[type=radio]:checked {
     }
     .namePriceCaroussel h3 {
       z-index: 1000;
-      font-size: 0.8em;
+      font-size: 0.7em;
       position: absolute;
       top: 5%;
       text-transform: capitalize;
@@ -613,7 +628,7 @@ input[type=radio]:checked {
     }
     .namePriceCaroussel h3 {
       z-index: 1000;
-      font-size: 0.6em;
+      font-size: 0.5em;
       position: absolute;
       top: 5%;
       text-transform: capitalize;

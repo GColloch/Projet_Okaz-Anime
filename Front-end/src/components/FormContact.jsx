@@ -63,9 +63,9 @@ const FormContact = () => {
   };
 
   return (
-    <div className="container">
+    <div className="containerform">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="fname">Prénom</label>
+        <label htmlFor="fname" className="labelContact">Prénom</label>
         <input
           type="text"
           id="fname"
@@ -78,7 +78,7 @@ const FormContact = () => {
           <span className="error">{errors.firstNameError}</span>
         )}
 
-        <label htmlFor="sujet">Sujet</label>
+        <label htmlFor="sujet" className="labelContact">Sujet</label>
         <input
           type="text"
           id="sujet"
@@ -91,7 +91,7 @@ const FormContact = () => {
           <span className="error">{errors.sujetError}</span>
         )}
 
-        <label htmlFor="emailAddress">Email</label>
+        <label htmlFor="emailAddress" className="labelContact">Email</label>
         <input
           id="emailAddress"
           type="email"
@@ -104,7 +104,7 @@ const FormContact = () => {
           <span className="error">{errors.emailError}</span>
         )}
 
-        <label htmlFor="subject">Message</label>
+        <label htmlFor="subject" className="labelContact">Message</label>
         <textarea
           id="subject"
           name="subject"

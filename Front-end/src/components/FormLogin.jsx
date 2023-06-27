@@ -21,8 +21,9 @@ const FormLogin = (props) => {
         }
         focused={focused.toString()}
       />
-      <span>{errorMessage}</span>
+      <span className="errorMessage">{errorMessage}</span>
     </div>
+    
   );
 };
 

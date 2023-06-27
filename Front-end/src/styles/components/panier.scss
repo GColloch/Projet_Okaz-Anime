@@ -1,0 +1,169 @@
+.degrade-block {
+  width: 40%; /* Ajuste la largeur selon tes besoins */
+  height: 100vh; /* Ajuste la hauteur selon tes besoins */
+  background: linear-gradient(105deg, #dc799e, #f5ccbd);
+}
+.image-overlaypanier {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  /* Ajuste la taille de l'image selon tes besoins */
+  width: 600px;
+  height: 600px;
+}
+
+.containerPanier h1{
+  position: absolute;
+  font-family: 'manga';
+  color: #ff6b35;
+  top: 40%;
+  right: 20%;
+}
+
+.containerPanier h2{
+  position: absolute;
+  font-family: 'Comme';
+  top: 53%;
+  right: 12%;
+  font-weight: 800;
+}
+.mangaPanier{
+  position: absolute;
+  font-family: 'Comme';
+  top: 53%;
+  right: 10%;
+  font-weight: 800;
+}
+
+.pricePanier{
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 3em;
+  top: 60%;
+  right: 36%;
+  font-weight: 600;
+}
+.productPanier1 {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.5em;
+  top: 70%;
+  right: 31%;
+  font-weight: 600;
+}
+.productPanier2 {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1em;
+  top: 70%;
+  right: 29%;
+  font-weight: 600;
+}
+.modèle {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.3em;
+  color: #ff6b35;
+  top: 80%;
+  right: 42%;
+  font-weight: 800;
+}
+
+.boitePanier {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.1em;
+  border: solid 2px black;
+  padding: 15px 15px;
+  color: #aeaeae;
+  background-color: white;
+  top: 87%;
+  right: 33%;
+  font-weight: 600;
+}
+.ajouterPanier {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.1em;
+  border: solid 2px #ff6b35;
+  padding: 15px 25px;
+  padding-right: 50px;
+  background-color: white;
+  top: 87%;
+  right: 13%;
+  font-weight: 700;
+  transition: transform .5s;
+}
+.ajouterPanier:hover {
+  color: white;
+  background-color: #ff6b35;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.iconShop {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  width: 30px;
+  height: auto;
+}
+
+.acheterPanier {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.1em;
+  border: none;
+  padding: 15px 25px;
+  background-color: #ff6b35;
+  color: white;
+  top: 100%;
+  right: 13%;
+  font-weight: 700;
+  transition: transform .5s;
+}
+.acheterPanier:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.quantity {
+  position: absolute;
+  top: 99%;
+  right: 33%;
+  padding-left: 180px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  font-family: 'Comme';
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  background-color: #eeeeee;
+}
+.textQuantity {
+  position: absolute;
+  top: 102%;
+  right: 42%;
+  font-family: 'Comme';
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.description {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.3em;
+  color: #ff6b35;
+  top: 110%;
+  right: 38%;
+  font-weight: 800;
+}
+
+.descriptionText {
+  
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1em;
+  top: 115%;
+  right: 11.5%;
+  font-weight: 700;
+}
