@@ -21,7 +21,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/eb63be62'><button>voir le produit</button></a>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ const Cards_Posters = () => {
                     <img src="/media/posters/eren.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>EREN JAEGER</h3>
+                    <h3>EREN JAGER</h3>
                     <span>14,99 €</span>
                 </div>
                 <p>Poster de l’animé <br />
@@ -43,7 +43,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/9cea2370'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -64,7 +64,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/963827a9'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -85,7 +85,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/ff88e49c'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -106,7 +106,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/08273ca0'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -127,7 +127,7 @@ const Cards_Posters = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/ec26daf6'><button>voir le produit</button></a>
                 </div>
             </div>
         </div>

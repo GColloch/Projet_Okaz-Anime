@@ -23,7 +23,7 @@ feu, le singe et la vache»</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/4184ba9e'><button>voir le produit</button></a>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ feu, le singe et la vache»</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/44323b0d'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -66,7 +66,7 @@ feu, le singe et la vache»</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/1ffa2429'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -87,7 +87,7 @@ et ses amis Broché »</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/9e33448b'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -108,7 +108,7 @@ et ses amis Broché »</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/3c805548'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -116,7 +116,7 @@ et ses amis Broché »</p>
                     <img src="/media/mangas/Naruto.jpg" />
                 </div>
                 <div className="namePrice">
-                    <h3>Manga One piece</h3>
+                    <h3>NARUTO</h3>
                     <span>5,99 €</span>
                 </div>
                 <p>Tome 04 : <br />
@@ -129,7 +129,7 @@ et ses amis Broché »</p>
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/e868a36c'><button>voir le produit</button></a>
                 </div>
             </div>
         </div>

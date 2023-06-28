@@ -30,7 +30,7 @@ const Présentation = () => {
             <p>Poster de l’animé <br />
             « My Hero Academia »</p>
             <div className="bayCaroussel">
-              <button>voir le produit</button>
+                   <a href='/08273ca0'><button>voir le produit</button></a>
             </div>
           </div>
         </label>
@@ -47,7 +47,7 @@ const Présentation = () => {
             <p>Manga de l'animé <br />
             « Dragon Ball »</p>
             <div className="bayCaroussel">
-              <button>voir le produit</button>
+                   <a href='/9e33448b'><button>voir le produit</button></a>
             </div>
           </div>
         </label>
@@ -64,7 +64,7 @@ const Présentation = () => {
             <p>Figurine de l'animé <br />
             « Demon slayer »</p>
             <div className="bayCaroussel">
-              <button>voir le produit</button>
+                   <a href='/5f04a9e5'><button>voir le produit</button></a>
             </div>
           </div>
         </label>

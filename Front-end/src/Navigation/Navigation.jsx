@@ -34,6 +34,7 @@ const Navigation = () => {
             >
               <li>FIGURINES</li>
             </NavLink>
+           
             <NavLink
               to='/Posters'
               style={{ textDecoration: 'none' }}

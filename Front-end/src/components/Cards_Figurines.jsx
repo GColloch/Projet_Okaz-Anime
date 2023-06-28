@@ -5,7 +5,7 @@ const Cards_Figurines = () => {
         <div className='products'>
             <div className="product">
                 <div className="image">
-                    <img src="/media/figurines/Trafalgar Law.png" />
+                <img src="/media/figurines/Trafalgar Law.png" />
                 </div>
                 <div className="namePrice">
                     <h3>TRAFALGAR LAW</h3>
@@ -21,7 +21,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                <a href="/f639818b"><button>voir le produit</button></a>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                <a href="/29a9301c"><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -52,7 +52,7 @@ const Cards_Figurines = () => {
                 </div>
                 <div className="namePrice">
                     <h3>LIVAÏ ACKERMAN</h3>
-                    <span>53,90 €</span>
+                    <span>53,99 €</span>
                 </div>
                 <p className='aot'>Figurine de l’animé <br />
                  « l’Attaque Des Titans »</p>
@@ -64,7 +64,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/d0edb41f'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -84,7 +84,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href="/93c5ae63"> <button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -104,7 +104,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/5f04a9e5'><button>voir le produit</button></a>
                 </div>
             </div>
             <div className="product">
@@ -124,7 +124,7 @@ const Cards_Figurines = () => {
                     <i className="fa-solid fa-star"></i>
                 </div>
                 <div className="bay">
-                    <button>voir le produit</button>
+                   <a href='/d8e6adf7'><button>voir le produit</button></a>
                 </div>
             </div>
             

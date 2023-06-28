@@ -11,7 +11,17 @@
   width: 600px;
   height: 600px;
 }
-
+.image-overlaypanier2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  /* Ajuste la taille de l'image selon tes besoins */
+  width: 400px;
+  height: 500px;
+}
+.containerPanier {
+  margin-bottom: 200px;
+}
 .containerPanier h1{
   position: absolute;
   font-family: 'manga';
@@ -159,11 +169,1215 @@
 }
 
 .descriptionText {
-  
   position: absolute;
   font-family: 'Comme';
   font-size: 1em;
   top: 115%;
   right: 11.5%;
   font-weight: 700;
+}
+.caractéristique {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.3em;
+  color: #ff6b35;
+  top: 126%;
+  right: 34.5%;
+  font-weight: 800;
+}
+
+.caractéristiqueText {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1em;
+  top: 131%;
+  right: 36.9%;
+  font-weight: 700;
+}
+.matière {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.3em;
+  color: #ff6b35;
+  top: 143%;
+  right: 42%;
+  font-weight: 800;
+}
+.matièreText {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1em;
+  top: 148%;
+  right: 47.2%;
+  font-weight: 700;
+}
+.matièreText2 {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1em;
+  top: 148%;
+  right: 42.6%;
+  font-weight: 700;
+}
+.cardPanier {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #dc799e, #f5ccbd);
+  display: flex;
+  justify-content: center;
+}
+
+.cardPanier img {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.textCardPanier {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #555;
+}
+.cardContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.ajouterPanierCard {
+  position: absolute;
+  font-family: 'Comme';
+  font-size: 1.1em;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  padding-right: 50px;
+  background-color: #ff6b35;
+  top: 200%;
+  right: 13%;
+  font-weight: 700;
+  transition: transform .5s;
+}
+.ajouterPanierCard:hover {
+  color: white;
+  background-color: #ff6b35;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+  .image-overlaypanier {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 550px;
+    height: 550px;
+  }
+  .image-overlaypanier2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 400px;
+    height: 500px;
+  }
+  .containerPanier {
+    margin-bottom: 200px;
+  }
+  .containerPanier h1{
+    position: absolute;
+    font-family: 'manga';
+    color: #ff6b35;
+    top: 40%;
+    right: 20%;
+  }
+  
+  .containerPanier h2{
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 12%;
+    font-weight: 800;
+  }
+  .mangaPanier{
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 10%;
+    font-weight: 800;
+  }
+  
+  .pricePanier{
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 2em;
+    top: 60%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .productPanier1 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1.2em;
+    top: 70%;
+    right: 31%;
+    font-weight: 600;
+  }
+  .productPanier2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 70%;
+    right: 29%;
+    font-weight: 600;
+  }
+  .modèle {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 80%;
+    right: 42%;
+    font-weight: 800;
+  }
+  
+  .boitePanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.9em;
+    border: solid 2px black;
+    padding: 15px 15px;
+    color: #aeaeae;
+    background-color: white;
+    top: 87%;
+    right: 33%;
+    font-weight: 600;
+  }
+  .ajouterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.9em;
+    border: solid 2px #ff6b35;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: white;
+    top: 87%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanier:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .iconShop {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    width: 25px;
+    height: auto;
+  }
+  
+  .acheterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.9em;
+    border: none;
+    padding: 15px 25px;
+    background-color: #ff6b35;
+    color: white;
+    top: 100%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .acheterPanier:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .quantity {
+    position: absolute;
+    top: 99%;
+    right: 33%;
+    padding-left: 150px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: 'Comme';
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #eeeeee;
+  }
+  .textQuantity {
+    position: absolute;
+    top: 102%;
+    right: 41%;
+    font-family: 'Comme';
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .description {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 110%;
+    right: 38%;
+    font-weight: 800;
+  }
+  
+  .descriptionText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 115%;
+    right: 11.5%;
+    font-weight: 700;
+  }
+  .caractéristique {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 126%;
+    right: 34.5%;
+    font-weight: 800;
+  }
+  
+  .caractéristiqueText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 131%;
+    right: 36.9%;
+    font-weight: 700;
+  }
+  .matière {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 143%;
+    right: 42%;
+    font-weight: 800;
+  }
+  .matièreText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 148%;
+    right: 47.2%;
+    font-weight: 700;
+  }
+  .matièreText2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 148%;
+    right: 42.6%;
+    font-weight: 700;
+  }
+  .cardPanier {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardPanier img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .textCardPanier {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+  }
+  .cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .ajouterPanierCard {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1.1em;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: #ff6b35;
+    top: 190%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanierCard:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+  .image-overlaypanier {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 400px;
+    height: 400px;
+  }
+  .image-overlaypanier2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 300px;
+    height: 400px;
+  }
+  .containerPanier {
+    margin-bottom: 200px;
+  }
+  .containerPanier h1{
+    font-size: 3em;
+    position: absolute;
+    font-family: 'manga';
+    color: #ff6b35;
+    top: 40%;
+    right: 20%;
+  }
+  
+  .containerPanier h2{
+    font-size: 1.8em;
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 12%;
+    font-weight: 800;
+  }
+  .mangaPanier{
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 10%;
+    font-weight: 800;
+  }
+  
+  .pricePanier{
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1.5em;
+    top: 60%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .productPanier1 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 70%;
+    right: 31%;
+    font-weight: 600;
+  }
+  .productPanier2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 70%;
+    right: 29%;
+    font-weight: 600;
+  }
+  .modèle {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 80%;
+    right: 42%;
+    font-weight: 800;
+  }
+  
+  .boitePanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    border: solid 2px black;
+    padding: 15px 15px;
+    color: #aeaeae;
+    background-color: white;
+    top: 87%;
+    right: 33%;
+    font-weight: 600;
+  }
+  .ajouterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    border: solid 2px #ff6b35;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: white;
+    top: 87%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanier:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .iconShop {
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    width: 20px;
+    height: auto;
+  }
+  
+  .acheterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    border: none;
+    padding: 15px 25px;
+    background-color: #ff6b35;
+    color: white;
+    top: 100%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .acheterPanier:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .quantity {
+    position: absolute;
+    top: 99%;
+    right: 33%;
+    padding-left: 120px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: 'Comme';
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #eeeeee;
+  }
+  .textQuantity {
+    position: absolute;
+    top: 102%;
+    right: 41%;
+    font-family: 'Comme';
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .description {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 110%;
+    right: 38%;
+    font-weight: 800;
+  }
+  
+  .descriptionText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 115%;
+    right: 11%;
+    font-weight: 700;
+  }
+  .caractéristique {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 126%;
+    right: 34.5%;
+    font-weight: 800;
+  }
+  
+  .caractéristiqueText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 131%;
+    right: 36.9%;
+    font-weight: 700;
+  }
+  .matière {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 143%;
+    right: 42%;
+    font-weight: 800;
+  }
+  .matièreText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 148%;
+    right: 47.2%;
+    font-weight: 700;
+  }
+  .matièreText2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 148%;
+    right: 42.6%;
+    font-weight: 700;
+  }
+  .cardPanier {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardPanier img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .textCardPanier {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+  }
+  .cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .ajouterPanierCard {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1.1em;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: #ff6b35;
+    top: 190%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanierCard:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .image-overlaypanier {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 300px;
+    height: 300px;
+  }
+  .image-overlaypanier2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 250px;
+    height: 350px;
+  }
+  .containerPanier {
+    margin-bottom: 200px;
+  }
+  .containerPanier h1{
+    font-size: 3em;
+    position: absolute;
+    font-family: 'manga';
+    color: #ff6b35;
+    top: 40%;
+    right: 20%;
+  }
+  
+  .containerPanier h2{
+    font-size: 1.8em;
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 12%;
+    font-weight: 800;
+  }
+  .mangaPanier{
+    position: absolute;
+    font-family: 'Comme';
+    top: 53%;
+    right: 10%;
+    font-weight: 800;
+  }
+  
+  .pricePanier{
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1.5em;
+    top: 60%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .productPanier1 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 70%;
+    right: 31%;
+    font-weight: 600;
+  }
+  .productPanier2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 70%;
+    right: 29%;
+    font-weight: 600;
+  }
+  .modèle {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 80%;
+    right: 42%;
+    font-weight: 800;
+  }
+  
+  .boitePanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.5em;
+    border: solid 2px black;
+    padding: 15px 15px;
+    color: #aeaeae;
+    background-color: white;
+    top: 87%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .ajouterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.5em;
+    border: solid 2px #ff6b35;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: white;
+    top: 87%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanier:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .iconShop {
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    width: 17px;
+    height: auto;
+  }
+  
+  .acheterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.5em;
+    border: none;
+    padding: 15px 25px;
+    background-color: #ff6b35;
+    color: white;
+    top: 100%;
+    right: 13%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .acheterPanier:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .quantity {
+    position: absolute;
+    top: 99%;
+    right: 33%;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Comme';
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #eeeeee;
+  }
+  .textQuantity {
+    position: absolute;
+    top: 102%;
+    right: 41%;
+    font-family: 'Comme';
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .description {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 110%;
+    right: 38%;
+    font-weight: 800;
+  }
+  
+  .descriptionText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 115%;
+    right: 11%;
+    font-weight: 700;
+    max-width: 40%;
+  }
+  .caractéristique {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 126%;
+    right: 34.5%;
+    font-weight: 800;
+  }
+  
+  .caractéristiqueText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 131%;
+    right: 36.9%;
+    font-weight: 700;
+  }
+  .matière {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 143%;
+    right: 42%;
+    font-weight: 800;
+  }
+  .matièreText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 148%;
+    right: 47.2%;
+    font-weight: 700;
+  }
+  .matièreText2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 148%;
+    right: 42.6%;
+    font-weight: 700;
+  }
+  .cardPanier {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardPanier img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .textCardPanier {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+  }
+  .cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .ajouterPanierCard {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.6em;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: #ff6b35;
+    top: 190%;
+    right: 10%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanierCard:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .image-overlaypanier {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 200px;
+    height: 200px;
+  }
+  .image-overlaypanier2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* Ajuste la taille de l'image selon tes besoins */
+    width: 150px;
+    height: 250px;
+  }
+  .containerPanier {
+    margin-bottom: 200px;
+  }
+  .containerPanier h1{
+    font-size: 1.8em;
+    position: absolute;
+    font-family: 'manga';
+    color: #ff6b35;
+    top: 40%;
+    right: 20%;
+  }
+  
+  .containerPanier h2{
+    font-size: 1.3em;
+    position: absolute;
+    font-family: 'Comme';
+    top: 48%;
+    right: 12%;
+    font-weight: 800;
+  }
+  .mangaPanier{
+    position: absolute;
+    font-family: 'Comme';
+    top: 48%;
+    right: 7%;
+    font-weight: 800;
+  }
+  
+  .pricePanier{
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 60%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .productPanier1 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 65%;
+    right: 25%;
+    font-weight: 600;
+  }
+  .productPanier2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 65%;
+    right: 21%;
+    font-weight: 600;
+  }
+  .modèle {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    color: #ff6b35;
+    top: 75%;
+    right: 42%;
+    font-weight: 800;
+  }
+  
+  .boitePanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.4em;
+    border: solid 2px black;
+    padding: 15px 15px;
+    color: #aeaeae;
+    background-color: white;
+    top: 79%;
+    right: 36%;
+    font-weight: 600;
+  }
+  .ajouterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.4em;
+    border: solid 2px #ff6b35;
+    padding: 15px 25px;
+    padding-right: 50px;
+    background-color: white;
+    top: 79%;
+    right: 7%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanier:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .iconShop {
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    width: 17px;
+    height: auto;
+  }
+  
+  .acheterPanier {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.5em;
+    border: none;
+    padding: 15px 25px;
+    background-color: #ff6b35;
+    color: white;
+    top: 90%;
+    right: 7%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .acheterPanier:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  .quantity {
+    position: absolute;
+    top: 88%;
+    right: 36%;
+    padding-left: 78px;
+    font-size: 0.4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Comme';
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #eeeeee;
+  }
+  .textQuantity {
+    position: absolute;
+    top: 91%;
+    right: 43%;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .description {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    color: #ff6b35;
+    top: 105%;
+    right: 38%;
+    font-weight: 800;
+  }
+  
+  .descriptionText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 110%;
+    right: 15%;
+    font-weight: 700;
+    max-width: 40%;
+  }
+  .caractéristique {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    color: #ff6b35;
+    top: 126%;
+    right: 34.5%;
+    font-weight: 800;
+  }
+  
+  .caractéristiqueText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.7em;
+    top: 131%;
+    right: 32%;
+    font-weight: 700;
+  }
+  .matière {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    color: #ff6b35;
+    top: 143%;
+    right: 42%;
+    font-weight: 800;
+  }
+  .matièreText {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.8em;
+    top: 148%;
+    right: 47.2%;
+    font-weight: 700;
+  }
+  .matièreText2 {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 1em;
+    top: 148%;
+    right: 42.6%;
+    font-weight: 700;
+  }
+  .cardPanier {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #dc799e, #f5ccbd);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cardPanier img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .textCardPanier {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+  }
+  .cardContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .ajouterPanierCard {
+    position: absolute;
+    font-family: 'Comme';
+    font-size: 0.4em;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    padding-right: 50px;
+    background-color: #ff6b35;
+    top: 175%;
+    right: 1%;
+    font-weight: 700;
+    transition: transform .5s;
+  }
+  .ajouterPanierCard:hover {
+    color: white;
+    background-color: #ff6b35;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
 }
