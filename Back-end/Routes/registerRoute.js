@@ -3,17 +3,17 @@ const router = express.Router();
 
 router.post('/register', (req, res) => {
   // Récupére les données d'inscription du corps de la requête
-  const { name, email, password } = req.body;
+  const { name, email, birthday, password, confirmPassword } = req.body;
 
   // Valide les données d'inscription
-  if (!name || !email || !password) {
+  if (!name || !email || !birthday || !password || !confirmPassword) {
     return res.status(400).json({ message: "Veuillez remplir tous les champs obligatoires." });
   }
 
   // Vérifie l'unicité de l'adresse e-mail dans la base de données
   User.findOne({ email: email }, (err, existingUser) => {
     if (err) {
-      return res.status(500).json({ message: "Une erreur s'est produite lors de la vérification de l'adresse e-mail." });
+      return res.status(500).json({ message: "Il doit s'agir d'une adresse électronique valide !" });
     }
 
     if (existingUser) {
@@ -26,7 +26,9 @@ router.post('/register', (req, res) => {
     const newUser = new User({
       name: name,
       email: email,
-      password: password
+      birthday: birthday,
+      password: password,
+      confirmPassword: confirmPassword
     });
 
     newUser.save((err) => {

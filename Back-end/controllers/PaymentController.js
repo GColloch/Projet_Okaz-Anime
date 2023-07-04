@@ -10,7 +10,7 @@ const makePayment = async (req, res) => {
       return res.status(400).json({ error: 'Invalid payment details' });
     }
 
-    // Enregistrer la transaction dans la base de données
+    // Enregistre la transaction dans la base de données
     const payment = new Payment({
       cardNumber,
       expirationDate,

@@ -7,8 +7,10 @@ const CartPage = ({ cartItems, removeFromCart }) => {
       {cartItems.map(item => (
         <div key={item.id}>
           <h3>{item.name}</h3>
+          <img>{item.picture}</img>
           <p>{item.price}</p>
-          <button onClick={() => removeFromCart(item.id)}>Supprimer</button>
+          <p>{item.caracteristiques}</p>
+          <p>{item.matière}</p>
         </div>
       ))}
     </div>
