@@ -5,6 +5,7 @@ import Livraison from '../components/Livraison';
 import Banner from '../components/Banner';
 import Presentation from '../components/Présentation';
 import Cookies from '../components/Cookies';
+import MySwiper from '../components/carrousel';
 
 
 const Accueil = () => {
@@ -15,6 +16,7 @@ const Accueil = () => {
         <Banner />
         <Presentation />
         <Partenariat />
+        <MySwiper />
         <Footer /> 
         <Cookies />
             
