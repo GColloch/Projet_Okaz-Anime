@@ -5,7 +5,6 @@ const Logo = () => {
         <div className='logo'>
             <a href='/'><img src='./logo.png' alt='logo okazanime' /></a>
             
-            
         </div>
     );
 };

@@ -14,12 +14,7 @@ const Cards_Figurines = () => {
                 <p>Figurine de l’animé <br /> 
                 « One Piece »</p>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </div>
+                  </div>
                 <div className="bay">
                 <a href="/f639818b"><button>voir le produit</button></a>
                 </div>
